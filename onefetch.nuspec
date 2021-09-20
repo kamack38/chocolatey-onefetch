@@ -5,7 +5,7 @@
     <version>2.10.2</version>
     <packageSourceUrl>https://github.com/kamack38/chocolatey-onefetch</packageSourceUrl>
     <owners>Kamack38</owners>
-    <title>onefetch</title>
+    <title>OneFetch</title>
     <authors>o2sh, contributors</authors>
     <projectUrl>https://github.com/o2sh/onefetch</projectUrl>
     <iconUrl>https://rawcdn.githack.com/o2sh/onefetch/main/assets/onefetch.svg</iconUrl>
