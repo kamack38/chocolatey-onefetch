@@ -12,3 +12,11 @@ This Repository contains all of my chocolatey packages.
 ```powershell
 choco install onefetch
 ```
+
+## LogitechG HUB
+
+> Logitech G HUB gives you a single portal for optimizing and customizing all your supported Logitech G gear: mice, keyboards, headsets, speakers, and webcams.
+
+```powershell
+choco install lghub
+```
