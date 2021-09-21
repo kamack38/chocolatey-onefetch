@@ -3,7 +3,7 @@
   <metadata>
     <id>onefetch</id>
     <version>2.10.2</version>
-    <packageSourceUrl>https://github.com/kamack38/chocolatey-onefetch</packageSourceUrl>
+    <packageSourceUrl>https://github.com/kamack38/chocopkgs/tree/master/onefetch</packageSourceUrl>
     <owners>Kamack38</owners>
     <title>OneFetch</title>
     <authors>o2sh, contributors</authors>
