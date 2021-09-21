@@ -1,6 +1,6 @@
 ﻿# LogitechG-HUB
 
-<h3 align="center"><img src="https://www.logitech.com/assets/65549/lg-hub-logo.png" height="130px"></h3>
+<h3 align="center"><img src=".\icons\lg-hub.png" height="130px"></h3>
 
 <h5 align="center">App for customizing Logitech peripherals</h5>
 
