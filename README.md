@@ -1,4 +1,4 @@
-# Chocolatey Pckages
+# <img src="./icons/choco.svg" height="32" /> Chocolatey Pckages
 
 This Repository contains all of my chocolatey packages.
 [My chocolatey profile](https://community.chocolatey.org/profiles/kamack38)
@@ -15,7 +15,7 @@ This Repository contains all of my chocolatey packages.
 choco install onefetch
 ```
 
-## LogitechG HUB
+## <img src="./logitechghub/icons/lg-hub.png" height="32" /> LogitechG HUB
 
 > Logitech G HUB gives you a single portal for optimizing and customizing all your supported Logitech G gear: mice, keyboards, headsets, speakers, and webcams.
 
