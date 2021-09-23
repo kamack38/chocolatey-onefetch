@@ -18,12 +18,5 @@ $packageArgs = @{
 }
 
 Install-ChocolateyZipPackage @packageArgs
-$File = Get-ChildItem -File -Path $env:ChocolateyInstall\lib\$packageName\tools\ -Filter *.tar
-Get-ChocolateyUnzip -fileFullPath $File.FullName -destination $env:ChocolateyInstall\lib\$packageName\tools\
-
-$ShimArgs = @{
-   Name     = 'onefetch'
-   Path     = "$toolsDir\onefetch.exe"
-}
-
-Install-BinFile @ShimArgs
+$File = Get-ChildItem -File -Path $toolsDir -Filter *.tar
+Get-ChocolateyUnzip -fileFullPath $File.FullName -destination $toolsDir
