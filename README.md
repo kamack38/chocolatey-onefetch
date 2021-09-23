@@ -9,7 +9,7 @@ This Repository contains all of my chocolatey packages.
 
 > Onefetch is a command-line Git information tool written in `Rust` that displays project information and code statistics for a local Git repository directly on your terminal. The tool is completely offline - no network access is required.
 
-[[Source](https://github.com/o2sh/onefetch)]
+[[Source](https://github.com/o2sh/onefetch)] [[Chocolatey](https://community.chocolatey.org/packages/onefetch/)]
 
 ```powershell
 choco install onefetch
