@@ -3,7 +3,7 @@
 This Repository contains all of my chocolatey packages.
 [My chocolatey profile](https://community.chocolatey.org/profiles/kamack38)
 
-## Oneftech
+## <img src="https://rawcdn.githack.com/o2sh/onefetch/main/assets/onefetch.svg" height="32" /> Oneftech
 
 *This package is automatically updated using [AU](https://github.com/majkinetor/au)*
 
