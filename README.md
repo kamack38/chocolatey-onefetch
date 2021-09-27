@@ -1,4 +1,4 @@
-# <img src="./icons/choco.svg" height="32" /> Chocolatey Pckages
+# <img src="./_icons/choco.svg" height="32" /> Chocolatey Pckages
 
 This Repository contains all of my chocolatey packages.
 [My chocolatey profile](https://community.chocolatey.org/profiles/kamack38)
@@ -13,6 +13,18 @@ This Repository contains all of my chocolatey packages.
 
 ```powershell
 choco install onefetch
+```
+
+## DiscordForOffice
+
+*This package is automatically updated using [AU](https://github.com/majkinetor/au)*
+
+> Show the world how much you love presenting, spreadsheets and writing with the full DiscordForOffice suite of products
+
+[[Source](https://github.com/7coil/DiscordForOffice)] [[Chocolatey](https://community.chocolatey.org/packages/dcforoffice/)]
+
+```powershell
+choco install dcforoffice
 ```
 
 ## <img src="./logitechghub/icons/lg-hub.png" height="32" /> LogitechG HUB
