@@ -8,6 +8,11 @@ jobs:
         name: Checkout
         uses: actions/checkout@v2.3.4
       - 
+        name: Disable Chocolatey Source
+        uses: crazy-max/ghaction-chocolatey@v1
+        with: 
+          args: source disable -n=chocolatey
+      - 
         name: Add Source
         uses: crazy-max/ghaction-chocolatey@v1
         with: 
