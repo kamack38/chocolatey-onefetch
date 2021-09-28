@@ -38,13 +38,3 @@ choco install action
 ```powershell
 choco install dcforoffice
 ```
-
-## <img src="./logitechghub/icons/lg-hub.png" height="32" /> LogitechG HUB
-
-> Logitech G HUB gives you a single portal for optimizing and customizing all your supported Logitech G gear: mice, keyboards, headsets, speakers, and webcams.
-
-[[Source](https://support.logi.com/hc/articles/360025298133)]
-
-```powershell
-choco install lghub
-```
