@@ -15,7 +15,7 @@ This Repository contains all of my chocolatey packages.
 choco install onefetch
 ```
 
-## DiscordForOffice
+## <img src="./_icons/DiscordForOffice.png" height="32"/> DiscordForOffice
 
 *This package is automatically updated using [AU](https://github.com/majkinetor/au)*
 
