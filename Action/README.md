@@ -1,6 +1,6 @@
 ﻿# Mrillis - Action!
 
-![Logo](https://download.mirillis.com/files/formedia/Action_black.png)
+![Logo](../assets/Action.png)
 
 Mirillis Action! screen recorder allows streaming and real-time recording of Windows desktop in a superb HD video quality. With Action! you can record and stream your gameplay, web player videos, record music, capture screenshots, add webcams, microphone commentary... and more!
 

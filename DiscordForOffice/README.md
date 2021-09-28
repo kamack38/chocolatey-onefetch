@@ -1,6 +1,6 @@
 ﻿# DiscordForOffice
 
-![Logo](../_icons/DiscordForOffice.png)
+![Logo](../assets/DiscordForOffice.png)
 
 Show the world how much you love presenting, spreadsheets and writing with the full DiscordForOffice suite of products
 

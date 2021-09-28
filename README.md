@@ -1,4 +1,4 @@
-# <img src="./_icons/Chocolatey.svg" height="32" /> Chocolatey Pckages
+# <img src="./assets/Chocolatey.svg" height="32" /> Chocolatey Pckages
 
 This Repository contains all of my chocolatey packages.
 [My chocolatey profile](https://community.chocolatey.org/profiles/kamack38)
@@ -15,7 +15,7 @@ This Repository contains all of my chocolatey packages.
 choco install onefetch
 ```
 
-## <img src="./_icons/Action.png" height="32"/> Action!
+## <img src="./assets/Action.png" height="32"/> Action!
 
 *This package is automatically updated using [AU](https://github.com/majkinetor/au)*
 
@@ -27,7 +27,7 @@ choco install onefetch
 choco install action
 ```
 
-## <img src="./_icons/DiscordForOffice.png" height="32"/> DiscordForOffice
+## <img src="./assets/DiscordForOffice.png" height="32"/> DiscordForOffice
 
 *This package is automatically updated using [AU](https://github.com/majkinetor/au)*
 
