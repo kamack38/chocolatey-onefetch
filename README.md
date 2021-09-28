@@ -1,4 +1,4 @@
-# <img src="./_icons/choco.svg" height="32" /> Chocolatey Pckages
+# <img src="./_icons/Chocolatey.svg" height="32" /> Chocolatey Pckages
 
 This Repository contains all of my chocolatey packages.
 [My chocolatey profile](https://community.chocolatey.org/profiles/kamack38)
@@ -13,6 +13,18 @@ This Repository contains all of my chocolatey packages.
 
 ```powershell
 choco install onefetch
+```
+
+## <img src="./_icons/Action.png" height="32"/> Action!
+
+*This package is automatically updated using [AU](https://github.com/majkinetor/au)*
+
+> Mirillis Action! screen recorder allows streaming and real-time recording of Windows desktop in a superb HD video quality. With Action! you can record and stream your gameplay, web player videos, record music, capture screenshots, add webcams, microphone commentary... and more!
+
+[[Source](https://mirillis.com/en/products/action.html)] [[Chocolatey](https://community.chocolatey.org/packages/action/)]
+
+```powershell
+choco install action
 ```
 
 ## <img src="./_icons/DiscordForOffice.png" height="32"/> DiscordForOffice
