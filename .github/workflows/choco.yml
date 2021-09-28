@@ -8,22 +8,22 @@ jobs:
         name: Checkout
         uses: actions/checkout@v2.3.4
       - 
-        name: Disable Chocolatey Source
+        name: Disable chocolatey/api Source
         uses: crazy-max/ghaction-chocolatey@v1
         with: 
           args: source disable -n=chocolatey
       - 
-        name: Add Source
+        name: Add New Package Source
         uses: crazy-max/ghaction-chocolatey@v1
         with: 
           args: source add --name='repo' --source='./nupkgs/' --priority='1'
       -
-        name: Choco Install
+        name: Install Packages
         uses: crazy-max/ghaction-chocolatey@v1
         with: 
           args: install onefetch dcforoffice -dvy
       -
-        name: Choco Uninstall
+        name: Uninstall Packages
         uses: crazy-max/ghaction-chocolatey@v1
         with: 
           args: uninstall onefetch dcforoffice -dvy

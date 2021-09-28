@@ -1,5 +1,7 @@
 ﻿# DiscordForOffice
 
+![Logo](../_icons/DiscordForOffice.png)
+
 Show the world how much you love presenting, spreadsheets and writing with the full DiscordForOffice suite of products
 
 - [Downloads](https://github.com/Terminal/DiscordForOffice/releases)
