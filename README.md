@@ -1,4 +1,4 @@
-# <img src="./assets/Chocolatey.svg" height="32" /> Chocolatey Pckages
+# <img src="./assets/Chocolatey.svg" height="32" /> Chocolatey Packages
 
 This Repository contains all of my chocolatey packages.
 [My chocolatey profile](https://community.chocolatey.org/profiles/kamack38)
