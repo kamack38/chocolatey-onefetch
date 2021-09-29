@@ -15,7 +15,7 @@
     <docsUrl>https://mirillis.com/gameplay-recording-action-tutorials</docsUrl>
     <tags>action record game mirillis</tags>
     <summary>Mirillis Action! screen recorder allows streaming and real-time recording of Windows desktop in a superb HD video quality.</summary>
-    <description>
+    <description><![CDATA[
 # Mrillis - Action!
 
 Mirillis Action! screen recorder allows streaming and real-time recording of Windows desktop in a superb HD video quality. With Action! you can record and stream your gameplay, web player videos, record music, capture screenshots, add webcams, microphone commentary... and more!
@@ -60,7 +60,7 @@ Read more about Action! LIVE Streaming
 Never miss a gaming moment with Time-Shift option
 
 ## [And More!!!](https://mirillis.com/en/products/action.html)
-    </description>
+    ]]></description>
     <releaseNotes>https://github.com/o2sh/onefetch/releases/latest</releaseNotes>
   </metadata>
   <files>

@@ -16,7 +16,7 @@
     <bugTrackerUrl>https://github.com/7coil/DiscordForOffice/issues</bugTrackerUrl>
     <tags>discord office microsoft-office rpc</tags>
     <summary>Show what you're doing in Microsoft Office to your friends on Discord.</summary>
-    <description>
+    <description><![CDATA[
 # Discord For Office
 
 Show the world how much you love presenting, spreadsheets and writing with the full DiscordForOffice suite of products
@@ -52,7 +52,7 @@ Show the world how much you love presenting, spreadsheets and writing with the f
 3. The installer, which is ready to distribute, can be found here:
     - `/Bundler/bin/Debug/DiscordForOffice.exe`
     - `/Bundler/bin/Release/DiscordForOffice.exe`
-    </description>
+    ]]></description>
     <releaseNotes>https://github.com/7coil/DiscordForOffice/releases/</releaseNotes>
   </metadata>
   <files>
