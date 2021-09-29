@@ -100,6 +100,9 @@ $Options = [ordered]@{
         $global:au_IncludeStream = $Matches['stream']
         $global:au_Version       = $Matches['version']
     }
+    AfterEach = {
+        Get-ChildItem -Depth 1 | Where-Object Name -Match .*.nupkg | Move-Item -Destination .\nupkgs\ -Force
+    }
 }
 
 if ($ForcedPackages) { Write-Host "FORCED PACKAGES: $ForcedPackages" }

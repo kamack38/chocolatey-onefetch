@@ -65,8 +65,10 @@ $options = [ordered]@{
         Path   = "$PSScriptRoot\Update-Force-Test-${n}.md"  #List of files to add to the gist
         Description = "Update Force Test Report #powershell #chocolatey"
     }
+    AfterEach = {
+        Get-ChildItem -Depth 1 | Where-Object Name -Match .*.nupkg | Move-Item -Destination ..\nupkgs\ -Force
+    }
 }
-
 
 $global:info = updateall -Name $Name -Options $Options
 
