@@ -8,7 +8,7 @@
     <title>Action!</title>
     <authors>Mirillis</authors>
     <projectUrl>https://mirillis.com/en/products/action.html</projectUrl>
-    <iconUrl>https://rawcdn.githack.com/kamack38/chocopkgs/master/assets/Action.png</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/kamack38/chocopkgs/master/assets/ActionBlack.png</iconUrl>
     <copyright>Copyright (c) 2021 Mirillis Ltd.</copyright>
     <licenseUrl>https://mirillis.com/pdf/eula/Action!-Game-and-screen-recorder-eula.pdf</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
@@ -20,7 +20,7 @@
 
 Mirillis Action! screen recorder allows streaming and real-time recording of Windows desktop in a superb HD video quality. With Action! you can record and stream your gameplay, web player videos, record music, capture screenshots, add webcams, microphone commentary... and more!
 
-![Logo](https://download.mirillis.com/files/formedia/Action_black.png)
+![Logo](https://rawcdn.githack.com/kamack38/chocopkgs/master/assets/Action.png)
 
 ## 1. The most user friendly and stylish interface of all screen recorders
 
