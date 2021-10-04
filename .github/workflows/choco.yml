@@ -23,9 +23,9 @@ jobs:
         name: Install Packages
         uses: crazy-max/ghaction-chocolatey@v1
         with: 
-          args: install onefetch dcforoffice action -dvy
+          args: install onefetch dcforoffice action jarfix -dvy
       -
         name: Uninstall Packages
         uses: crazy-max/ghaction-chocolatey@v1
         with: 
-          args: uninstall onefetch dcforoffice -dvy
+          args: uninstall onefetch dcforoffice action -dvy
