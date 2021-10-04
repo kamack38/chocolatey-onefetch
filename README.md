@@ -39,7 +39,7 @@ choco install action
 choco install dcforoffice
 ```
 
-## <img src="./assets/Jarfix.png" height="32"/> DiscordForOffice
+## <img src="./assets/Jarfix.png" height="32"/> Jarfix
 
 > If you doubleclick on a jar file, and your Java application does not start, your .jar association has been hijacked. You can fix the problem with Jarfix.
 
