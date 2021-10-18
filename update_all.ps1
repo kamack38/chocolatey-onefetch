@@ -6,7 +6,7 @@ if (Test-Path $PSScriptRoot/update_vars.ps1) { . $PSScriptRoot/update_vars.ps1 }
 
 $Options = [ordered]@{
     WhatIf        = $au_WhatIf                              #Whatif all packages
-    Force         = $false                                  #Force all packages
+    Force         = $true                                  #Force all packages
     Timeout       = 100                                     #Connection timeout in seconds
     UpdateTimeout = 1200                                    #Update timeout in seconds
     Threads       = 10                                      #Number of background jobs to use
@@ -39,7 +39,7 @@ $Options = [ordered]@{
         Path = "$PSScriptRoot\Update-AUPackages.md"         #Path where to save the report
         Params= @{                                          #Report parameters:
             Github_UserRepo = $Env:github_user_repo         #  Markdown: shows user info in upper right corner
-            NoAppVeyor  = $false                            #  Markdown: do not show AppVeyor build shield
+            NoAppVeyor  = $true                             #  Markdown: do not show AppVeyor build shield
             UserMessage = "[Ignored](#ignored) | [History](#update-history) | [Force Test](https://gist.github.com/$Env:gist_id_test) | [Releases](https://github.com/$Env:github_user_repo/tags)"       #  Markdown, Text: Custom user message to show
             NoIcons     = $false                            #  Markdown: don't show icon
             IconSize    = 32                                #  Markdown: icon size
@@ -102,6 +102,12 @@ $Options = [ordered]@{
     }
     AfterEach = {
         Get-ChildItem -Depth 1 | Where-Object Name -Match .*.nupkg | Move-Item -Destination .\nupkgs\ -Force
+        # $nupkg = Get-ChildItem -Exclude 'nupkgs' | Get-ChildItem -Recurse | Where-Object Name -Match .*.nupkg 
+        # $file = (Get-ChildItem -Exclude 'nupkgs' | Get-ChildItem -Recurse | Where-Object Name -Match .*.nupkg | Select-Object -First 1 -ExpandProperty Name).Split('.') | Select-Object -First 1
+        # if($?) { 
+        #     Get-ChildItem ..\nupkgs | Where-Object Name -Match "$file.*.nupkg" | Remove-Item
+        #     Move-Item $nupkg ..\nupkgs
+        # }
     }
 }
 
