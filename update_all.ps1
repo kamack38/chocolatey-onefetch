@@ -6,7 +6,7 @@ if (Test-Path $PSScriptRoot/update_vars.ps1) { . $PSScriptRoot/update_vars.ps1 }
 
 $Options = [ordered]@{
     WhatIf        = $au_WhatIf                              #Whatif all packages
-    Force         = $true                                  #Force all packages
+    Force         = $false                                  #Force all packages
     Timeout       = 100                                     #Connection timeout in seconds
     UpdateTimeout = 1200                                    #Update timeout in seconds
     Threads       = 10                                      #Number of background jobs to use
@@ -101,7 +101,7 @@ $Options = [ordered]@{
         $global:au_Version       = $Matches['version']
     }
     AfterEach = {
-        Get-ChildItem -Depth 1 | Where-Object Name -Match .*.nupkg | Move-Item -Destination .\nupkgs\ -Force
+        Get-ChildItem -Depth 1 | Where-Object Name -Match .*.nupkg | Move-Item -Destination ..\nupkgs\ -Force
         # $nupkg = Get-ChildItem -Exclude 'nupkgs' | Get-ChildItem -Recurse | Where-Object Name -Match .*.nupkg 
         # $file = (Get-ChildItem -Exclude 'nupkgs' | Get-ChildItem -Recurse | Where-Object Name -Match .*.nupkg | Select-Object -First 1 -ExpandProperty Name).Split('.') | Select-Object -First 1
         # if($?) { 

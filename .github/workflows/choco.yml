@@ -23,7 +23,7 @@ jobs:
         name: Install Packages
         uses: crazy-max/ghaction-chocolatey@v1
         with: 
-          args: install onefetch dcforoffice action -dvy
+          args: install onefetch dcforoffice action blitz.gg -dvy
       -
         name: Uninstall Packages
         uses: crazy-max/ghaction-chocolatey@v1

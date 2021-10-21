@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>action</id>
-    <version>4.21.5</version>
+    <version>4.22.0</version>
     <packageSourceUrl>https://github.com/kamack38/chocopkgs/tree/master/Action</packageSourceUrl>
     <owners>Kamack38</owners>
     <title>Action!</title>
@@ -61,7 +61,7 @@ Never miss a gaming moment with Time-Shift option
 
 ## [And More!!!](https://mirillis.com/en/products/action.html)
     ]]></description>
-    <releaseNotes>https://github.com/o2sh/onefetch/releases/latest</releaseNotes>
+    <releaseNotes>https://mirillis.com/action-history</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

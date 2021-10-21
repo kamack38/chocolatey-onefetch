@@ -39,6 +39,18 @@ choco install action
 choco install dcforoffice
 ```
 
+## <img src="./assets/Blitz.ggBanner.png" height="32"/> Blitz.gg
+
+*This package is automatically updated using [AU](https://github.com/majkinetor/au)*
+
+> Everything you need to win — all bundled into a revolutionary desktop app powered by AI, and built with professional players. 
+
+[[Source](https://blitz.gg/)] [[Chocolatey](https://community.chocolatey.org/packages/blitz.gg/)]
+
+```powershell
+choco install blitz.gg
+```
+
 ## <img src="./assets/Jarfix.png" height="32"/> Jarfix
 
 > If you doubleclick on a jar file, and your Java application does not start, your .jar association has been hijacked. You can fix the problem with Jarfix.
