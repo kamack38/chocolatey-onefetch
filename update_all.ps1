@@ -101,13 +101,12 @@ $Options = [ordered]@{
         $global:au_Version       = $Matches['version']
     }
     AfterEach = {
+        $nupkg = Get-ChildItem -Exclude 'nupkgs' | Get-ChildItem -Recurse | Where-Object Name -Match .*.nupkg
+        if ($nupkg -ne $null) {
+        $pkgName = ($nupkg.Name -split ".\d+")[0]
+        Remove-Item "..\nupkgs\$pkgName.*"
         Get-ChildItem -Depth 1 | Where-Object Name -Match .*.nupkg | Move-Item -Destination ..\nupkgs\ -Force
-        # $nupkg = Get-ChildItem -Exclude 'nupkgs' | Get-ChildItem -Recurse | Where-Object Name -Match .*.nupkg 
-        # $file = (Get-ChildItem -Exclude 'nupkgs' | Get-ChildItem -Recurse | Where-Object Name -Match .*.nupkg | Select-Object -First 1 -ExpandProperty Name).Split('.') | Select-Object -First 1
-        # if($?) { 
-        #     Get-ChildItem ..\nupkgs | Where-Object Name -Match "$file.*.nupkg" | Remove-Item
-        #     Move-Item $nupkg ..\nupkgs
-        # }
+        }
     }
 }
 
