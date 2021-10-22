@@ -28,4 +28,4 @@ jobs:
         name: Uninstall Packages
         uses: crazy-max/ghaction-chocolatey@v1
         with: 
-          args: uninstall onefetch dcforoffice action -dvy
+          args: uninstall onefetch dcforoffice action blitz.gg leagueoflegendseune -dvy
