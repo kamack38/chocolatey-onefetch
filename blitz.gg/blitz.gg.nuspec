@@ -37,6 +37,20 @@ Find out everything about how you and your opponents play with in-depth profile 
 
 [See how it works](https://www.youtube.com/watch?v=lMFQLbPkW8Y)
     ]]></description>
+    <releaseNotes><![CDATA[
+    ## General
+
+    - Resolved root causes for infinite app reload
+    - Resolved issue that caused user settings reset
+
+    ## Teamfight Tactics
+
+    - Added support for TFT Set 6
+
+    ## Legends of Runeterra
+
+    - Fixed player profile detection
+    ]]></releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
