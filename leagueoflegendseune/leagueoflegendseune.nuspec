@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>leagueoflegendseune</id>
+    <version>1.0</version>
+    <packageSourceUrl>https://github.com/kamack38/chocopkgs/tree/master/leagueoflegendseune</packageSourceUrl>
+    <owners>Kamack38</owners>
+    <title>League Of Legends EUNE</title>
+    <authors>Riot Games, Inc</authors>
+    <projectUrl>https://www.leagueoflegends.com/</projectUrl>
+    <iconUrl>https://rawcdn.githack.com/kamack38/chocopkgs/master/assets/LeagueOfLegends.svg</iconUrl>
+    <copyright><![CDATA[© 2021 Riot Games, inc. All rights reserved.]]></copyright>
+    <licenseUrl>https://www.riotgames.com/en/terms-of-service</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <docsUrl>https://www.leagueoflegends.com/en-gb/how-to-play/</docsUrl>
+    <tags>leagueoflegends eune riot riotgames launcher</tags>
+    <summary>EUNE (Europe North and East) Installer for League of Legends from Riot Games.</summary>
+    <description><![CDATA[
+# League Of Legends
+
+League of Legends is a team-based game with over 140 champions to make epic plays with. Play now for free.
+    ]]></description>
+    <releaseNotes>https://www.leagueoflegends.com/en-gb/news/tags/patch-notes/</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
