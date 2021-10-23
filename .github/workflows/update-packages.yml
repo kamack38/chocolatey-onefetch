@@ -16,8 +16,9 @@ jobs:
         name: Install & Import AU
         shell: powershell
         run: |
-           Install-Module au
-           Import-Module au
+          Set-PSRepository PSGallery -InstallationPolicy Trusted
+          Install-Module au
+          Import-Module au
       -
         name: Run script
         shell: powershell
