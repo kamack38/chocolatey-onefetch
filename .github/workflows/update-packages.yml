@@ -12,8 +12,13 @@ jobs:
       -
         name: Checkout
         uses: actions/checkout@v2.3.4
-      - 
-        name: Run update script
-        uses: crazy-max/ghaction-chocolatey@v1
+      -
+        name: Install AU
         shell: powershell
-        run: .\update_all.ps1
+        run: |
+           Install-Module au
+      -
+        name: Run script
+        shell: powershell
+        run: |
+          .\update_all.ps1
