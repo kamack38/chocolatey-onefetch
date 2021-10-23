@@ -3,7 +3,11 @@ name: Package Update
 on: 
   schedule:
     - cron: '30 18 * * *'
-  workflow_call:
+  workflow_dispatch:
+    inputs:
+      parameters:
+        description: 'Parameters for updater'
+        required: false
 
 jobs:
   update-packages:
@@ -23,4 +27,4 @@ jobs:
         name: Run script
         shell: powershell
         run: |
-          .\update_all.ps1
+          .\update_all.ps1 ${{ github.event.inputs.parameters }}
