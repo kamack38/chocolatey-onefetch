@@ -41,6 +41,8 @@ choco install dcforoffice
 
 ## <img src="./assets/LeagueOfLegends.svg" height="32"/> League Of Legends
 
+*This package is automatically updated using [AU](https://github.com/majkinetor/au)*
+
 > League of Legends is a team-based strategy game where two teams of five powerful champions face off to destroy the other’s base. Choose from over 140 champions to make epic plays, secure kills, and take down towers as you battle your way to victory.
 
 [[Source](https://www.leagueoflegends.com/)] [[Chocolatey](https://community.chocolatey.org/packages/leagueoflegendseune/)]

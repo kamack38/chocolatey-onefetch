@@ -15,5 +15,5 @@ jobs:
       - 
         name: Run update script
         uses: crazy-max/ghaction-chocolatey@v1
-          run: .\update_all.ps1
+        run: .\update_all.ps1
           shell: powershell
