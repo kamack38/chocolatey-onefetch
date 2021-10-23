@@ -1,0 +1,19 @@
+name: Package Update
+
+# on: schedule:
+#   - time: '30 18 * * *'
+
+on: push
+
+jobs:
+  update-packages:
+    runs-on: windows-latest
+    steps:
+      -
+        name: Checkout
+        uses: actions/checkout@v2.3.4
+      - 
+        name: Run update script
+        uses: crazy-max/ghaction-chocolatey@v1
+          run: .\update_all.ps1
+          shell: powershell

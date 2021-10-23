@@ -7,7 +7,7 @@ $packageArgs = @{
   packageName    = $packageName
   fileType       = 'exe'
   url            = 'https://lol.secure.dyn.riotcdn.net/channels/public/x/installer/current/live.eune.exe'
-  checksum       = '3621E07823A028A6DB34903865892423E29DE943E3C1C99B1573B9C0AE9E8BE0'
+  checksum       = '3621e07823a028a6db34903865892423e29de943e3c1c99b1573b9c0ae9e8be0'
   checksumType   = 'sha256'
   silentArgs     = '--skip-to-install'
 }
