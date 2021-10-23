@@ -1,7 +1,7 @@
 name: Package Update
 
 on: schedule:
-  - time: '30 18 * * *'
+  - cron: '30 18 * * *'
 
 jobs:
   update-packages:
