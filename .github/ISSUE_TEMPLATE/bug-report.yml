@@ -14,7 +14,13 @@ body:
     id: steps-to-reproduce
     attributes:
       label: Steps to reproduce
-      placeholder: Steps to reproduce the behavior
+      description: Steps to reproduce the behavior
+      placeholder: |
+        Steps to reproduce the behavior:
+        1. Go to '...'
+        2. Click on '....'
+        3. Scroll down to '....'
+        4. See error
   - type: textarea
     id: expected-behaviour
     attributes: 
@@ -36,7 +42,7 @@ body:
     attributes:
       label: Desktop
       value: |
-        - Package Version [e.g. 1.15.64] |
+        - Package Version [e.g. 1.15.64]
         - Chocolatey Version [e.g. 22]
   - type: textarea
     id: additional-info
