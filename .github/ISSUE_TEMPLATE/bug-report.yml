@@ -1,8 +1,9 @@
 name: Bug report
 description: Create a report to help us improve
-title: "[BUG]: "
+title: "[Bug]: "
 labels: ["bug"]
-assignees: ''
+assignees: 
+  - kamack38
 body:
   - type: textarea
     id: what-happened
