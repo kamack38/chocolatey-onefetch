@@ -1,9 +1,10 @@
 name: Package request
-about: Suggest an idea for this project
-title: '[Package Request] Software Name'
-labels: enhancement
-assignees: ''
-
+description: Suggest an idea for this project
+title: "[Package Request] Software Name"
+labels: ["enhancement"]
+assignees: 
+  - kamack38
+body:
   - type: textarea
     attributes:
       label: Software Info
