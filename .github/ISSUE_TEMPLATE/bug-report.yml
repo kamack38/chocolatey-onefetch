@@ -5,6 +5,17 @@ labels: ["bug"]
 assignees: 
   - kamack38
 body:
+  - type: dropdown
+    id: package-name
+    attributes:
+      label: Package
+      description: Pick the package you have issue with.
+      options:
+        - action
+        - blitz.gg
+        - dcforoffice
+        - leagueoflegends
+        - onefecth
   - type: textarea
     id: what-happened
     attributes: 
