@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>blitz.gg</id>
-    <version>1.15.65</version>
+    <version>1.15.67</version>
     <packageSourceUrl>https://github.com/kamack38/chocopkgs/tree/master/blitz.gg</packageSourceUrl>
     <owners>Kamack38</owners>
     <title>Blitz.gg</title>
@@ -11,7 +11,7 @@
     <iconUrl>https://rawcdn.githack.com/kamack38/chocopkgs/master/assets/Blitz.gg.png</iconUrl>
     <copyright><![CDATA[Copyright © 2021 Blitz, Inc.]]></copyright>
     <docsUrl>https://support.blitz.gg/hc/en-us</docsUrl>
-    <tags>blitz leageoflegends lol tracker</tags>
+    <tags>blitz leageoflegends lol tracker status fortnite valorant</tags>
     <summary>Everything you need to win — all bundled into a revolutionary desktop app powered by AI, and built with professional players.</summary>
     <description><![CDATA[
 # Blitz.gg
@@ -38,18 +38,15 @@ Find out everything about how you and your opponents play with in-depth profile 
 [See how it works](https://www.youtube.com/watch?v=lMFQLbPkW8Y)
     ]]></description>
     <releaseNotes><![CDATA[
-    # General
+    **Introducing: Blitz Fortnite! Player Profiles, Post-Match Stats, Live Game Leaderboard & much more!**
 
-    - Resolved root causes for infinite app reload
-    - Resolved issue that caused user settings reset
+    # League of Legends
 
-    ## Teamfight Tactics
+    - Improve Jungle Timer Overlay
 
-    - Added support for TFT Set 6
+    ## Valorant
 
-    ## Legends of Runeterra
-
-    - Fixed player profile detection
+    - Add support for Episode 3 Act 3
     ]]></releaseNotes>
   </metadata>
   <files>
