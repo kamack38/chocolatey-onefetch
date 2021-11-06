@@ -8,7 +8,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Please make sure to [search for existing questions](https://github.com/kamack38/chocopkgs/issues) before filing a new one!
+        Please make sure to [search for existing questions](https://github.com/kamack38/chocopkgs/issues?q=label%3Aquestion+) before filing a new one!
 
   - type: textarea
     id: question
