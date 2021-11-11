@@ -6,8 +6,8 @@ $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $packageArgs = @{
   packageName    = $packageName
   fileType       = 'exe'
-  url            = 'https://downloads.mirillis.com/files/action_4_22_0_setup.exe'
-  checksum       = '7167a35f282af51cb64f48d15cee892588074071b68a1815b3a09cf7414d1fd6'
+  url            = 'https://downloads.mirillis.com/files/action_4_23_0_setup.exe'
+  checksum       = '1f6f82a2f196be9b3c16a7182bdf555c9b13039b4eb1f6c1554610fd781e28fa'
   checksumType   = 'sha256'
   silentArgs     = '/S'
 }
