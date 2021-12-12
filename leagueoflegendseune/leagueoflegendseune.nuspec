@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>leagueoflegendseune</id>
-    <version>30.0.1.3715678</version>
+    <version>41.0.5.4098838</version>
     <packageSourceUrl>https://github.com/kamack38/chocopkgs/tree/master/leagueoflegendseune</packageSourceUrl>
     <owners>Kamack38</owners>
     <title>League Of Legends (EUNE)</title>
@@ -20,13 +20,15 @@
 
 ![Logo](https://rawcdn.githack.com/kamack38/chocopkgs/master/assets/LeagueOfLegendsBanner.png)
 
+League of Legends Installer of EUNE region.
+
 ## What is League of Legends?
 
-League of Legends is a team-based strategy game where two teams of five powerful champions face off to destroy the other’s base. Choose from over 140 champions to make epic plays, secure kills, and take down towers as you battle your way to victory.
+League of Legends is a team-based strategy game where two teams of five powerful champions face off to destroy the other's base. Choose from over 140 champions to make epic plays, secure kills, and take down towers as you battle your way to victory.
 
 ## Destroy The Base
 
-The Nexus is the heart of both teams’ bases. Destroy the enemy’s Nexus first to win the game.
+The Nexus is the heart of both teams' bases. Destroy the enemy's Nexus first to win the game.
 
 ## Clear The Path
 
@@ -38,7 +40,7 @@ In between the lanes is the jungle, where neutral monsters and jungle plants res
 
 ## Choose your lane
 
-There are five positions that make up the recommended team comp for the game. Each lane lends itself to certain kinds of champions and roles—try them all or lock in to the lane that calls you.
+There are five positions that make up the recommended team comp for the game. Each lane lends itself to certain kinds of champions and roles-try them all or lock in to the lane that calls you.
 
 ## Power Up Your Champ
 
@@ -47,7 +49,7 @@ Champions get stronger by earning experience to level up and gold to buy more po
 ## Unlock Your Abilities
 
 Champions have five core abilities, two special spells, and up to seven items at a time. Figuring out the optimal ability order, summoner spells, and item build for your champion will help you succeed as a team.
-    ]]></description>
+    ]]>    </description>
     <releaseNotes>https://www.leagueoflegends.com/en-gb/news/tags/patch-notes/</releaseNotes>
   </metadata>
   <files>
