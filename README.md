@@ -5,7 +5,7 @@ This Repository contains all of my chocolatey packages.
 
 ## <img src="./assets/Action.png" height="32"/> Action
 
-*This package is automatically updated using [AU](https://github.com/majkinetor/au)*
+_This package is automatically updated using [AU](https://github.com/majkinetor/au)_
 
 > Mirillis Action! screen recorder allows streaming and real-time recording of Windows desktop in a superb HD video quality. With Action! you can record and stream your gameplay, web player videos, record music, capture screenshots, add webcams, microphone commentary... and more!
 
@@ -17,9 +17,9 @@ choco install action
 
 ## <img src="./assets/Blitz.ggBanner.png" height="32"/> Blitz.gg
 
-*This package is automatically updated using [AU](https://github.com/majkinetor/au)*
+_This package is automatically updated using [AU](https://github.com/majkinetor/au)_
 
-> Everything you need to win — all bundled into a revolutionary desktop app powered by AI, and built with professional players. 
+> Everything you need to win — all bundled into a revolutionary desktop app powered by AI, and built with professional players.
 
 [[Source](https://blitz.gg/)] [[Chocolatey](https://community.chocolatey.org/packages/blitz.gg/)]
 
@@ -29,7 +29,7 @@ choco install blitz.gg
 
 ## <img src="./assets/DiscordForOffice.png" height="32"/> DiscordForOffice
 
-*This package is automatically updated using [AU](https://github.com/majkinetor/au)*
+_This package is automatically updated using [AU](https://github.com/majkinetor/au)_
 
 > Show the world how much you love presenting, spreadsheets and writing with the full DiscordForOffice suite of products
 
@@ -41,7 +41,7 @@ choco install dcforoffice
 
 ## <img src="./assets/LeagueOfLegends.svg" height="32"/> League Of Legends
 
-*This package is automatically updated using [AU](https://github.com/majkinetor/au)*
+_This package is automatically updated using [AU](https://github.com/majkinetor/au)_
 
 > League of Legends is a team-based strategy game where two teams of five powerful champions face off to destroy the other’s base. Choose from over 140 champions to make epic plays, secure kills, and take down towers as you battle your way to victory.
 
@@ -53,7 +53,7 @@ choco install leagueoflegendseune
 
 ## <img src="https://rawcdn.githack.com/o2sh/onefetch/main/assets/onefetch.svg" height="32" /> Oneftech
 
-*This package is automatically updated using [AU](https://github.com/majkinetor/au)*
+_This package is automatically updated using [AU](https://github.com/majkinetor/au)_
 
 > Onefetch is a command-line Git information tool written in `Rust` that displays project information and code statistics for a local Git repository directly on your terminal. The tool is completely offline - no network access is required.
 
@@ -61,6 +61,18 @@ choco install leagueoflegendseune
 
 ```powershell
 choco install onefetch
+```
+
+## <img src="https://rawcdn.githack.com/tree-sitter/tree-sitter/7bac34c925ac6fc5493c9ebd4cfc07cf5e1e92f0/docs/assets/images/tree-sitter-small.png" height="32" /> tree-sitter
+
+_This package is automatically updated using [AU](https://github.com/majkinetor/au)_
+
+> Tree-sitter is a parser generator tool and an incremental parsing library. It can build a concrete syntax tree for a source file and efficiently update the syntax tree as the source file is edited.
+
+[[Source](https://github.com/tree-sitter/tree-sitter)] [[Chocolatey](https://community.chocolatey.org/packages/tree-sitter/)]
+
+```powershell
+choco install tree-sitter
 ```
 
 ## <img src="./assets/Jarfix.png" height="32"/> Jarfix

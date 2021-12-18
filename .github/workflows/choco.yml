@@ -6,26 +6,21 @@ jobs:
   verify-packages:
     runs-on: windows-latest
     steps:
-      -
-        name: Checkout
+      - name: Checkout
         uses: actions/checkout@v2.3.4
-      - 
-        name: Disable chocolatey/api Source
+      - name: Disable chocolatey/api Source
         uses: crazy-max/ghaction-chocolatey@v1
-        with: 
+        with:
           args: source disable -n=chocolatey
-      - 
-        name: Add New Package Source
+      - name: Add New Package Source
         uses: crazy-max/ghaction-chocolatey@v1
-        with: 
+        with:
           args: source add --name='repo' --source='./nupkgs/' --priority='1'
-      -
-        name: Install Packages
+      - name: Install Packages
         uses: crazy-max/ghaction-chocolatey@v1
-        with: 
-          args: install onefetch dcforoffice action blitz.gg leagueoflegendseune -dvy
-      -
-        name: Uninstall Packages
+        with:
+          args: install onefetch tree-sitter dcforoffice action blitz.gg leagueoflegendseune -dvy
+      - name: Uninstall Packages
         uses: crazy-max/ghaction-chocolatey@v1
-        with: 
-          args: uninstall onefetch dcforoffice action blitz.gg leagueoflegendseune -dvy
+        with:
+          args: uninstall onefetch tree-sitter dcforoffice action blitz.gg leagueoflegendseune -dvy
