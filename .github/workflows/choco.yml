@@ -19,8 +19,8 @@ jobs:
       - name: Install Packages
         uses: crazy-max/ghaction-chocolatey@v1
         with:
-          args: install onefetch tree-sitter dcforoffice action blitz.gg leagueoflegendseune -dvy
+          args: install onefetch tree-sitter dcforoffice blitz.gg leagueoflegendseune action-dvy
       - name: Uninstall Packages
         uses: crazy-max/ghaction-chocolatey@v1
         with:
-          args: uninstall onefetch tree-sitter dcforoffice action blitz.gg leagueoflegendseune -dvy
+          args: uninstall onefetch tree-sitter dcforoffice blitz.gg leagueoflegendseune action -dvy
