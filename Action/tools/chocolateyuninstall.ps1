@@ -1,18 +1,18 @@
 $ErrorActionPreference = 'Stop';
 
-$packageName = $env:chocolateyPackageName
-$toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$ahkFile = Join-Path $toolsDir "chocolateyUninstall.ahk"
+$packageName = 'action'
+$packageSearch = "Action*"
+$fileType = 'exe'
+$silentArgs = '/S'
+$validExitCodes = @(0)
 
-$packageArgs = @{
-  packageName  = $packageName
-  validExitCodes = @(0)
-}
-
-Write-Output "Running Autohotkey uninstaller"
-
-Start-Process -FilePath 'AutoHotKey' `
-    -ArgumentList $ahkFile `
-    -PassThru
-Write-Output "Running Action uninstaller"
-Uninstall-ChocolateyPackage @packageArgs
+Get-ItemProperty -Path @('HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*',
+  'HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*',
+  'HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*') `
+  -ErrorAction:SilentlyContinue `
+| Where-Object { $_.DisplayName -like $packageSearch } `
+| ForEach-Object { Uninstall-ChocolateyPackage -PackageName "$packageName" `
+    -FileType "$fileType" `
+    -SilentArgs "$silentArgs" `
+    -File $_.UninstallString.Replace('"', '') `
+    -ValidExitCodes $validExitCodes }
