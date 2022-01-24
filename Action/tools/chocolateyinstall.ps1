@@ -12,4 +12,14 @@ $packageArgs = @{
   validExitCodes = @(0)
 }
 
+$pp = Get-PackageParameters
+
+if ($pp.NoDesktopIcon) { $packageArgs.silentArgs += ' /ND' }
+if ($pp.NoStartMenuIcon) { $packageArgs.silentArgs += ' /NS' }
+# Doesn't work
+# if ($pp.Path) {
+#   $installPath = $pp.Path
+#   packageArgs.silentArgs += " /D=$installPath" 
+# }
+
 Install-ChocolateyPackage @packageArgs

@@ -23,6 +23,12 @@ Mirillis Action! screen recorder allows streaming and real-time recording of Win
 
 ![Logo](https://rawcdn.githack.com/kamack38/chocopkgs/master/assets/Action.png)
 
+
+## Instalation arguments
+
+`/NoDesktopIcon` - Doesn't create shortcuts on the desktop
+`/NoStartMenuIcon` - Doesn't create shortcuts in the Start menu
+
 ## 1. The most user friendly and stylish interface of all screen recorders
 
 Action! is compact, stylish and user friendly. Built-in screen and gameplay recording manager allows to browse, delete selected items and export recordings to popular formats and devices. Action! screen recorder defines new standard of user experience for games benchmarking, gameplay and Windows desktop real-time recording software.
