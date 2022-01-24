@@ -64,9 +64,6 @@ Never miss a gaming moment with Time-Shift option
     ]]>
     </description>
     <releaseNotes>https://mirillis.com/action-history</releaseNotes>
-    <dependencies>
-      <dependency id="autohotkey.portable" version="1.1.33.10" />
-    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
