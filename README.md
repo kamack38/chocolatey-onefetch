@@ -59,8 +59,9 @@ _This package is automatically updated using [AU](https://github.com/majkinetor/
 
 [[Source](https://www.leagueoflegends.com/)] [[Chocolatey](https://community.chocolatey.org/packages/leagueoflegendseune/)]
 
-````powershell
+```powershell
 choco install betterdiscord
+```
 
 ## <img src="https://rawcdn.githack.com/o2sh/onefetch/main/assets/onefetch.svg" height="32" /> Oneftech
 
@@ -72,7 +73,7 @@ _This package is automatically updated using [AU](https://github.com/majkinetor/
 
 ```powershell
 choco install onefetch
-````
+```
 
 ## <img src="https://rawcdn.githack.com/tree-sitter/tree-sitter/7bac34c925ac6fc5493c9ebd4cfc07cf5e1e92f0/docs/assets/images/tree-sitter-small.png" height="32" /> tree-sitter
 
