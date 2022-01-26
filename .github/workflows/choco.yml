@@ -5,6 +5,7 @@ on: push
 jobs:
   verify-packages:
     runs-on: windows-latest
+    timeout-minutes: 6
     steps:
       - name: Checkout
         uses: actions/checkout@v2.3.4
@@ -14,41 +15,33 @@ jobs:
           args: source add --name='repo' --source='./nupkgs/' --priority='1'
       - name: Install onefetch
         uses: crazy-max/ghaction-chocolatey@v1
-        timeout-minutes: 5
         with:
           args: install onefetch -dvy
       - name: Install tree-sitter
         uses: crazy-max/ghaction-chocolatey@v1
-        timeout-minutes: 5
         with:
           args: install tree-sitter -dvy
       - name: Install Discord for Office
         uses: crazy-max/ghaction-chocolatey@v1
-        timeout-minutes: 5
         with:
           args: install dcforoffice -dvy
       - name: Install Blitz.gg
         uses: crazy-max/ghaction-chocolatey@v1
-        timeout-minutes: 5
         with:
           args: install blitz.gg -dvy
       - name: Install BetterDiscord
         uses: crazy-max/ghaction-chocolatey@v1
-        timeout-minutes: 5
         with:
           args: install betterdiscord -dvy
       - name: Install League Of Legends
         uses: crazy-max/ghaction-chocolatey@v1
-        timeout-minutes: 5
         with:
           args: install leagueoflegendseune -dvy
       - name: Install Action!
         uses: crazy-max/ghaction-chocolatey@v1
-        timeout-minutes: 5
         with:
           args: install action -dvy
       - name: Uninstall Packages
         uses: crazy-max/ghaction-chocolatey@v1
-        timeout-minutes: 10
         with:
           args: uninstall onefetch tree-sitter dcforoffice blitz.gg betterdiscord leagueoflegendseune action -dvy
