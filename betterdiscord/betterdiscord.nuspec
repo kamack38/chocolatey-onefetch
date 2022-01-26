@@ -8,7 +8,7 @@
     <title>BetterDiscord</title>
     <authors>BetterDiscord Team</authors>
     <projectUrl>https://betterdiscord.app/</projectUrl>
-    <iconUrl>https://betterdiscord.app/resources/branding/logo_small.svg</iconUrl>
+    <iconUrl>https://betterdiscord.app/resources/favicon/android-icon-192x192.png</iconUrl>
     <copyright><![CDATA[© 2015-2022 BetterDiscord Team]]></copyright>
     <licenseUrl>https://github.com/BetterDiscord/BetterDiscord/blob/main/LICENSE</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
