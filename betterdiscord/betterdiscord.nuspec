@@ -58,6 +58,9 @@ Explore communities from [DiscordServers.com](https://discordservers.com/) direc
     ]]>
     </description>
     <releaseNotes>https://github.com/BetterDiscord/BetterDiscord/blob/main/CHANGELOG.md#betterdiscord-changelog</releaseNotes>
+    <dependencies>
+      <dependency id="discord.install" version="1.0.9003" />
+    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
