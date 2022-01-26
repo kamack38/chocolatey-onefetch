@@ -35,7 +35,7 @@ PixelGetColor, color, 522, 320
 While color != 0xC1713A
 {
     PixelGetColor, color, 522, 320, Alt
-    sleep, 100
+    WinActivate, ahk_exe %winTitle%
 }
 
 ; Close
