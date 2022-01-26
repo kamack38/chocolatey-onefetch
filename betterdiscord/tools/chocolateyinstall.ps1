@@ -1,6 +1,8 @@
 ﻿$ErrorActionPreference = 'Stop';
 
 $packageName = $env:chocolateyPackageName
+$toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+$ahkFile = Join-Path $toolsDir "chocolateyInstall.ahk"
 
 $packageArgs = @{
   packageName    = $packageName
@@ -12,4 +14,9 @@ $packageArgs = @{
   validExitCodes = @(0)
 }
 
+Write-Output "Running Autohotkey installer"
+Start-Process -FilePath 'AutoHotkey' `
+  -ArgumentList $ahkFile `
+  -PassThru
+Write-Output "Running Action installer"
 Install-ChocolateyPackage @packageArgs

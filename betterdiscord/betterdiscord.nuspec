@@ -60,6 +60,7 @@ Explore communities from [DiscordServers.com](https://discordservers.com/) direc
     <releaseNotes>https://github.com/BetterDiscord/BetterDiscord/blob/main/CHANGELOG.md#betterdiscord-changelog</releaseNotes>
     <dependencies>
       <dependency id="discord.install" version="1.0.9003" />
+      <dependency id="autohotkey.portable" version="1.1.33.10" />
     </dependencies>
   </metadata>
   <files>
