@@ -43,13 +43,24 @@ choco install dcforoffice
 
 _This package is automatically updated using [AU](https://github.com/majkinetor/au)_
 
-> League of Legends is a team-based strategy game where two teams of five powerful champions face off to destroy the other’s base. Choose from over 140 champions to make epic plays, secure kills, and take down towers as you battle your way to victory.
+> League of Legends is a team-based strategy game where two teams of five powerful champions face off to destroy the other's base. Choose from over 140 champions to make epic plays, secure kills, and take down towers as you battle your way to victory.
 
 [[Source](https://www.leagueoflegends.com/)] [[Chocolatey](https://community.chocolatey.org/packages/leagueoflegendseune/)]
 
 ```powershell
 choco install leagueoflegendseune
 ```
+
+## <img src="https://betterdiscord.app/resources/branding/logo_small.svg" height="32"/> BetterDiscord
+
+_This package is automatically updated using [AU](https://github.com/majkinetor/au)_
+
+> BetterDiscord is a client modification for Discord. This allows you to add plugins and themes to your personal copy of Discord. BetterDiscord also adds a number of other features out of the box.
+
+[[Source](https://www.leagueoflegends.com/)] [[Chocolatey](https://community.chocolatey.org/packages/leagueoflegendseune/)]
+
+````powershell
+choco install betterdiscord
 
 ## <img src="https://rawcdn.githack.com/o2sh/onefetch/main/assets/onefetch.svg" height="32" /> Oneftech
 
@@ -61,7 +72,7 @@ _This package is automatically updated using [AU](https://github.com/majkinetor/
 
 ```powershell
 choco install onefetch
-```
+````
 
 ## <img src="https://rawcdn.githack.com/tree-sitter/tree-sitter/7bac34c925ac6fc5493c9ebd4cfc07cf5e1e92f0/docs/assets/images/tree-sitter-small.png" height="32" /> tree-sitter
 
