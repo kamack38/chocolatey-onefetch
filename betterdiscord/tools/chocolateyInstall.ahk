@@ -8,7 +8,7 @@ winTitle = BetterDiscord.exe
 WinWait, ahk_exe %winTitle%,, 360
 ; WinHide, ahk_exe %winTitle%
 
-sleep 1000
+sleep 1500
 ; Accept License
 sleep, 100
 ControlClick, X28 Y283, ahk_exe %winTitle%
@@ -31,12 +31,7 @@ sleep, 10
 ControlClick, X500 Y320, ahk_exe %winTitle%
 
 ; Wait for exit button
-PixelGetColor, color, 522, 320
-While color != 0xC1713A
-{
-    PixelGetColor, color, 522, 320, Alt
-    WinActivate, ahk_exe %winTitle%
-}
+sleep, 5000
 
 ; Close
 ControlClick, X500 Y320, ahk_exe %winTitle%
