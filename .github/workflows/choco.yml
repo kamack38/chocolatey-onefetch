@@ -1,6 +1,10 @@
 name: CI/CD
 
-on: push
+on:
+  push:
+    paths:
+      - '**.nupkg'
+      - '**.ps1'
 
 jobs:
   verify-packages:
