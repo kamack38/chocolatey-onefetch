@@ -63,6 +63,18 @@ _This package is automatically updated using [AU](https://github.com/majkinetor/
 choco install betterdiscord
 ```
 
+## <img src="./assets/7tt.png" height="32"/> 7+ Taskbar Tweaker
+
+_This package is automatically updated using [AU](https://github.com/majkinetor/au)_
+
+> A program for tweaking the taskbar of Windows 7, 8 and 10. 7+ Taskbar Tweaker provides many customization options, like disabling grouping and middle-click to close.
+
+[[Source](https://betterdiscord.app/)] [[Chocolatey](https://community.chocolatey.org/packages/betterdiscord/)]
+
+```powershell
+choco install 7tt
+```
+
 ## <img src="https://rawcdn.githack.com/o2sh/onefetch/main/assets/onefetch.svg" height="32" /> Oneftech
 
 _This package is automatically updated using [AU](https://github.com/majkinetor/au)_

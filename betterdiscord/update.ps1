@@ -25,11 +25,6 @@ function global:au_GetLatest {
         URL32   = $url
         Version = $version.Replace('v', '')
     }
-
-    return @{
-        URL32   = $url
-        Version = $version
-    }
 }
 
 Update-Package -NoReadme

@@ -46,6 +46,12 @@ jobs:
         continue-on-error: true
         with:
           args: install betterdiscord -dvy
+      - name: Install 7+ Taskbar Tweaker
+        uses: crazy-max/ghaction-chocolatey@v1
+        timeout-minutes: 2
+        continue-on-error: true
+        with:
+          args: install 7tt -dvy
       - name: Install League Of Legends
         uses: crazy-max/ghaction-chocolatey@v1
         timeout-minutes: 2
