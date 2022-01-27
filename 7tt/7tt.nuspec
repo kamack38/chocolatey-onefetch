@@ -8,10 +8,11 @@
     <title>7+ Taskbar Tweaker</title>
     <authors>Michael Maltsev</authors>
     <projectUrl>https://tweaker.ramensoftware.com/</projectUrl>
-    <iconUrl>https://rawcdn.githack.com/kamack38/chocopkgs/master/assets/7tt.png</iconUrl>
+    <iconUrl>https://ramensoftware.com/wp-content/uploads/2011/01/7_taskbar_tweaker.png</iconUrl>
     <copyright>By RaMMicHaeL</copyright>
     <licenseUrl>https://github.com/m417z/7-Taskbar-Tweaker/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/m417z/7-Taskbar-Tweaker</projectSourceUrl>
     <tags>7+ taskbartweaker taskbar tweaks</tags>
     <summary>A program for tweaking the taskbar of Windows 7, 8 and 10. 7+ Taskbar Tweaker provides many customization options, like disabling grouping and middle-click to close.</summary>
     <description>
