@@ -57,7 +57,7 @@ _This package is automatically updated using [AU](https://github.com/majkinetor/
 
 > BetterDiscord is a client modification for Discord. This allows you to add plugins and themes to your personal copy of Discord. BetterDiscord also adds a number of other features out of the box.
 
-[[Source](https://www.leagueoflegends.com/)] [[Chocolatey](https://community.chocolatey.org/packages/leagueoflegendseune/)]
+[[Source](https://betterdiscord.app/)] [[Chocolatey](https://community.chocolatey.org/packages/betterdiscord/)]
 
 ```powershell
 choco install betterdiscord
