@@ -68,4 +68,4 @@ jobs:
         uses: crazy-max/ghaction-chocolatey@v1
         continue-on-error: false
         with:
-          args: uninstall onefetch tree-sitter dcforoffice blitz.gg betterdiscord leagueoflegendseune action -dvy
+          args: uninstall onefetch tree-sitter dcforoffice blitz.gg betterdiscord 7tt leagueoflegendseune action -dvy
