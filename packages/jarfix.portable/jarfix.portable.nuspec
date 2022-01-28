@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
-    <id>jarfix</id>
+    <id>jarfix.portable</id>
     <version>3.0.0</version>
     <packageSourceUrl>https://github.com/kamack38/chocopkgs/tree/master/jarfix</packageSourceUrl>
     <owners>Kamack38</owners>
@@ -14,7 +14,7 @@
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <docsUrl>https://johann.loefflmann.net/en/software/jarfix/index.html#Description</docsUrl>
     <bugTrackerUrl>https://github.com/7coil/DiscordForOffice/issues</bugTrackerUrl>
-    <tags>java fix problem .jar file</tags>
+    <tags>java fix problem jar file</tags>
     <summary>If you doubleclick on a jar file, and your Java application does not start, your .jar association has been hijacked. You can fix the problem with Jarfix.</summary>
     <description><![CDATA[
 #JarFix
@@ -30,8 +30,11 @@ You may also miss the file connection with .jar if you are using a free OpenJDK 
 Reinstall the Java Runtime Environment or fix the Windows Registry manually each time this problem occurs.
 
 ## The solution ...
-You can fix this problem very easy with the small but reliable Downloadjarfix.exe program. Just doubleclick on it to restore the .jar association with javaw.exe.  
-    ]]></description>
+You can fix this problem very easy with the small but reliable jarfix.exe program. Just doubleclick on it to restore the .jar association with javaw.exe.
+
+## Usage
+After installation you can use the package from the commandline (`jarfix.exe`)
+    ]]>    </description>
     <releaseNotes>https://johann.loefflmann.net/en/software/jarfix/index.html#ReleaseNotes</releaseNotes>
   </metadata>
   <files>

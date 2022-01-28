@@ -13,4 +13,11 @@ $packageArgs = @{
   checksumType = 'sha256'
 }
 
+$shortcutArgs = @{
+  shortcutFilePath = Join-Path $env:APPDATA "Microsoft\Windows\Start Menu\Programs\Jarfix.lnk"
+  targetPath       = $location
+}
+
 Get-ChocolateyWebFile @packageArgs
+
+Install-ChocolateyShortcut @shortcutArgs
