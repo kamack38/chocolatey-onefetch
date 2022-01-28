@@ -3,7 +3,7 @@
   <metadata>
     <id>betterdiscord</id>
     <version>1.1.1</version>
-    <packageSourceUrl>https://github.com/kamack38/chocopkgs/tree/master/betterdiscord</packageSourceUrl>
+    <packageSourceUrl>https://github.com/kamack38/chocopkgs/tree/master/packages/betterdiscord</packageSourceUrl>
     <owners>Kamack38</owners>
     <title>BetterDiscord</title>
     <authors>BetterDiscord Team</authors>
@@ -12,6 +12,7 @@
     <copyright><![CDATA[© 2015-2022 BetterDiscord Team]]></copyright>
     <licenseUrl>https://github.com/BetterDiscord/BetterDiscord/blob/main/LICENSE</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/BetterDiscord/Installer</projectSourceUrl>
     <docsUrl>https://github.com/BetterDiscord/BetterDiscord/wiki</docsUrl>
     <tags>better discord dc betterdc</tags>
     <summary>BetterDiscord extends the functionality of DiscordApp by enhancing it with new features.</summary>

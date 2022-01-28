@@ -3,7 +3,7 @@
   <metadata>
     <id>blitz.gg</id>
     <version>1.16.19</version>
-    <packageSourceUrl>https://github.com/kamack38/chocopkgs/tree/master/blitz.gg</packageSourceUrl>
+    <packageSourceUrl>https://github.com/kamack38/chocopkgs/tree/master/packages/blitz.gg</packageSourceUrl>
     <owners>Kamack38</owners>
     <title>Blitz.gg</title>
     <authors>Blitz Inc.</authors>
@@ -36,7 +36,7 @@ Blitz tells you what goals to achieve and delivers them to you directly in game 
 Find out everything about how you and your opponents play with in-depth profile statistics.
 
 [See how it works](https://www.youtube.com/watch?v=lMFQLbPkW8Y)
-    ]]></description>
+    ]]>    </description>
     <releaseNotes><![CDATA[
     **League of Legends**
 
@@ -45,7 +45,7 @@ Find out everything about how you and your opponents play with in-depth profile 
     **Teamfight Tactics**
 
     - Add Opponent Tags & Leveling Overlay
-    ]]></releaseNotes>
+    ]]>    </releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

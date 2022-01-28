@@ -1,5 +1,7 @@
 ﻿# JarFix
 
+![Logo](https://rawcdn.githack.com/kamack38/chocopkgs/master/assets/Jarfix.png)
+
 ## Description
 
 If you doubleclick on a jar file, and your Java application does not start, your .jar association has been hijacked. You can fix the problem with Jarfix.
