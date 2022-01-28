@@ -4,7 +4,6 @@ on:
   push:
     paths:
       - '**.nupkg'
-      - '**.ps1'
 
 jobs:
   verify-packages:
