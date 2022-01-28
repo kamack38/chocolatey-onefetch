@@ -1,6 +1,6 @@
 ﻿# League Of Legends
 
-![Logo](../assets/LeagueOfLegendsBanner.png)
+![Logo](../../assets/LeagueOfLegendsBanner.png)
 
 ## What is League of Legends?
 

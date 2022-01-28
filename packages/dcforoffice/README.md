@@ -1,6 +1,6 @@
 ﻿# DiscordForOffice
 
-![Logo](../assets/DiscordForOffice.png)
+![Logo](../../assets/DiscordForOffice.png)
 
 Show the world how much you love presenting, spreadsheets and writing with the full DiscordForOffice suite of products
 
@@ -39,8 +39,8 @@ Show the world how much you love presenting, spreadsheets and writing with the f
 1. Enable `Office/SharePoint development` in the Visual Studio Installer
 2. Right click the solution and select the build option
 3. The installer, which is ready to distribute, can be found here:
-    - `/Bundler/bin/Debug/DiscordForOffice.exe`
-    - `/Bundler/bin/Release/DiscordForOffice.exe`
+   - `/Bundler/bin/Debug/DiscordForOffice.exe`
+   - `/Bundler/bin/Release/DiscordForOffice.exe`
 
 ## Instalation
 

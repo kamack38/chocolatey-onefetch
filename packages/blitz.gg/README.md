@@ -1,6 +1,6 @@
 ﻿# Blitz App
 
-![Logo](../assets/Blitz.ggBanner.png)
+![Logo](../../assets/Blitz.ggBanner.png)
 
 ## Performance Analysis
 
@@ -19,6 +19,7 @@ Blitz tells you what goals to achieve and delivers them to you directly in game 
 Find out everything about how you and your opponents play with in-depth profile statistics.
 
 [See how it works](https://www.youtube.com/watch?v=lMFQLbPkW8Y)
+
 ## Instalation
 
 ```powershell
