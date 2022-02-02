@@ -10,7 +10,7 @@ Customize the Windows taskbar with dozens of exclusive options. Adapt the taskba
 - **Reliable** - Being maintained and polished for more than 10 years.
 - **Free** - 7+ Taskbar Tweaker is free. If you like it, donations are welcome.
 
-## Instalation
+## Installation
 
 ```powershell
 choco install 7tt

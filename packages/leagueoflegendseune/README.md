@@ -30,7 +30,7 @@ Champions get stronger by earning experience to level up and gold to buy more po
 
 Champions have five core abilities, two special spells, and up to seven items at a time. Figuring out the optimal ability order, summoner spells, and item build for your champion will help you succeed as a team.
 
-## Instalation
+## Installation
 
 ```powershell
 choco install leagueoflegendseune

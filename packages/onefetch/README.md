@@ -25,7 +25,7 @@ Onefetch can be configured via command-line flags to display exactly what you wa
 
 As of now, onefetch supports more than 50 different programming languages; if your language of choice isn't supported: Open up an issue and support will be added.
 
-## Instalation
+## Installation
 
 ```powershell
 choco install onefetch

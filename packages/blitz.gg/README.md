@@ -20,7 +20,7 @@ Find out everything about how you and your opponents play with in-depth profile 
 
 [See how it works](https://www.youtube.com/watch?v=lMFQLbPkW8Y)
 
-## Instalation
+## Installation
 
 ```powershell
 choco install blitz.gg

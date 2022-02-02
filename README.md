@@ -63,6 +63,18 @@ _This package is automatically updated using [AU](https://github.com/majkinetor/
 choco install betterdiscord
 ```
 
+## <img src="https://rawcdn.githack.com/safing/web/e0e0e480affba5cc09d8eaa50f0c2a4b411278fb/assets/img/logo/logo.svg" height="32"/> Portmaster
+
+_This package is automatically updated using [AU](https://github.com/majkinetor/au)_
+
+> Portmaster is a free and open-source application that puts you back in charge over all your computer's network connections.
+
+[[Source](https://safing.io/portmaster/)] [[Chocolatey](https://community.chocolatey.org/packages/portmaster/)]
+
+```powershell
+choco install portmaster
+```
+
 ## <img src="./assets/7tt.png" height="32"/> 7+ Taskbar Tweaker
 
 _This package is automatically updated using [AU](https://github.com/majkinetor/au)_

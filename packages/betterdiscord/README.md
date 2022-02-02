@@ -36,7 +36,7 @@ Enable transparency and use a transparent theme for a see-through window.
 
 Explore communities from [DiscordServers.com](https://discordservers.com/) directly through your client.
 
-## Instalation
+## Installation
 
 ```powershell
 choco install betterdiscord

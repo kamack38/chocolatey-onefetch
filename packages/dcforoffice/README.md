@@ -42,7 +42,7 @@ Show the world how much you love presenting, spreadsheets and writing with the f
    - `/Bundler/bin/Debug/DiscordForOffice.exe`
    - `/Bundler/bin/Release/DiscordForOffice.exe`
 
-## Instalation
+## Installation
 
 ```powershell
 choco install dcforoffice

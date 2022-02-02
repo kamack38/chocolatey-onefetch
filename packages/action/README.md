@@ -131,7 +131,7 @@ Record what you hear!
 
 Action! is more than a screen recorder. It can record everything you hear on your PC. Audio recording function allows to record all sounds, music and game audio. Using microphone you can easily create podcasts. Additionaly Action! can encode in real-time the recorded audio in M4A format, making the recorded audio files small and compact.
 
-## Instalation
+## Installation
 
 ```powershell
 choco install action
