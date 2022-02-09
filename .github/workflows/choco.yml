@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - '**.nupkg'
+      - '**/workflows/**'
 
 jobs:
   verify-packages:
