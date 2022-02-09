@@ -85,4 +85,4 @@ jobs:
         uses: crazy-max/ghaction-chocolatey@v1
         continue-on-error: false
         with:
-          args: uninstall onefetch tree-sitter jarfix.portable dcforoffice blitz.gg betterdiscord portmaster 7tt leagueoflegendseune action -dvy
+          args: uninstall onefetch tree-sitter nvm.install jarfix.portable dcforoffice blitz.gg betterdiscord portmaster 7tt leagueoflegendseune action -dvy
