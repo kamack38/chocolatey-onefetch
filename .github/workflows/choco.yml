@@ -27,6 +27,12 @@ jobs:
         continue-on-error: true
         with:
           args: install tree-sitter -dvy
+      - name: Install nvm.install
+        uses: crazy-max/ghaction-chocolatey@v1
+        timeout-minutes: 2
+        continue-on-error: true
+        with:
+          args: install nvm.install -dvy
       - name: Install Jarfix
         uses: crazy-max/ghaction-chocolatey@v1
         timeout-minutes: 2

@@ -111,6 +111,18 @@ _This package is automatically updated using [AU](https://github.com/majkinetor/
 choco install tree-sitter
 ```
 
+## <img src="https://devstickers.com/assets/img/cat/nodejs.png" height="32" /> nvm.install
+
+_This package is automatically updated using [AU](https://github.com/majkinetor/au)_
+
+> A node.js version management utility for Windows. Ironically written in Go.
+
+[[Source](https://github.com/coreybutler/nvm-windows)] [[Chocolatey](https://community.chocolatey.org/packages/nvm.install/)]
+
+```powershell
+choco install nvm.install
+```
+
 ## <img src="./assets/Jarfix.png" height="32"/> Jarfix
 
 > If you doubleclick on a jar file, and your Java application does not start, your .jar association has been hijacked. You can fix the problem with Jarfix.
