@@ -11,17 +11,17 @@ jobs:
   test-packages:
     strategy:
       matrix:
-        package-name: ${{fromJson(inputs.packages)}}
+        package-name: ${{ fromJson(inputs.packages) }}
     runs-on: windows-2019
     steps:
-      - name: Install ${{ inputs.package-name }}
+      - name: Install ${{ matrix.package-name }}
         uses: crazy-max/ghaction-chocolatey@v1
         timeout-minutes: 3
         continue-on-error: true
         with:
-          args: install ${{ inputs.package-name }} -dvy
-      - name: Uninstall ${{ inputs.package-name }}
+          args: install ${{ matrix.package-name }} -dvy
+      - name: Uninstall ${{ matrix.package-name }}
         uses: crazy-max/ghaction-chocolatey@v1
         continue-on-error: false
         with:
-          args: uninstall ${{ inputs.package-name }} -dvy
+          args: uninstall ${{ matrix.package-name }} -dvy
