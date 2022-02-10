@@ -7,7 +7,7 @@
     <authors>coreybutler</authors>
     <owners>Kamack38</owners>
     <packageSourceUrl>https://github.com/kamack38/chocopkgs/tree/master/packages/nvm.install</packageSourceUrl>
-    <iconUrl>https://rawcdn.githack.com/kamack38/chocopkgs/f0ed5d6260f64f4a5fe791ddb2a24b8c80ddae32/assets/nodejs.png</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/kamack38/chocopkgs/e8c138b36054d68de0eaef4b390197d2f85b5161/assets/nodejs.png</iconUrl>
     <docsUrl>https://github.com/coreybutler/nvm-windows/wiki</docsUrl>
     <bugTrackerUrl>https://github.com/coreybutler/nvm-windows/issues</bugTrackerUrl>
     <projectUrl>https://github.com/coreybutler/nvm-windows</projectUrl>
@@ -48,8 +48,8 @@ NVM for Windows is a command line tool. Simply type `nvm` in the console for hel
 - `nvm use <version> [arch]`: Switch to use the specified version. Optionally use `latest`, `lts`, or `newest`. `newest` is the latest _installed_ version. Optionally specify 32/64bit architecture. `nvm use <arch>` will continue using the selected version, but switch to 32/64 bit mode. For information about using `use` in a specific directory (or using `.nvmrc`), please refer to [issue #16](https://github.com/coreybutler/nvm-windows/issues/16).
 - `nvm root <path>`: Set the directory where nvm should store different versions of node.js. If `<path>` is not set, the current root will be displayed.
 - `nvm version`: Displays the current running version of NVM for Windows.
-- `nvm node_mirror <node_mirror_url>`: Set the node mirror.People in China can use *https://npmmirror.com/mirrors/node/*
-- `nvm npm_mirror <npm_mirror_url>`: Set the npm mirror.People in China can use *https://npmmirror.com/mirrors/npm/*
+- `nvm node_mirror <node_mirror_url>`: Set the node mirror.
+- `nvm npm_mirror <npm_mirror_url>`: Set the npm mirror.
     ]]>
     </description>
     <releaseNotes>https://github.com/coreybutler/nvm-windows/releases/latest</releaseNotes>
