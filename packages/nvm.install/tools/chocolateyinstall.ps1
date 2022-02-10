@@ -13,5 +13,10 @@ $packageArgs = @{
   unzipLocation = $toolsDir
 }
 
+$pp = Get-PackageParameters
+
 Install-ChocolateyZipPackage @packageArgs
+if ($pp) {
+  
+}
 Start-Process $toolsDir\nvm-setup.exe -ArgumentList "/VERYSILENT /NOCIONS /DIR=$nvmPath"
