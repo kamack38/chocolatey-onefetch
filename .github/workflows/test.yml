@@ -1,0 +1,11 @@
+name: test
+
+on:
+  push:
+
+jobs:
+  test:
+    runs-on: windows-2019
+    steps:
+      - name: Test
+        run: echo ${{ github }}

@@ -7,7 +7,7 @@ on:
       - '**/workflows/test-tree-sitter.yml'
 
 jobs:
-  verify-packages:
+  test-tree-sitter:
     runs-on: windows-2019
     steps:
       - name: Checkout
