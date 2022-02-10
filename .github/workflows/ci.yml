@@ -14,9 +14,9 @@ jobs:
         with:
           args: source add --name='repo' --source='./nupkgs/' --priority='1'
   test:
-    needs: pre
     runs-on: windows-2019
     strategy:
+      max-parallel: 10
       fail-fast: false
       matrix:
         packages:
@@ -34,7 +34,9 @@ jobs:
             'portmaster',
             'tree-sitter',
           ]
+    needs: pre
     steps:
-      - uses: kamack38/chocopkgs/.github/workflows/test-package.yml@master
+      - name: Test Package
+        uses: kamack38/chocopkgs/.github/workflows/_test-package.yml@master
         with:
-          package: ${{ matrix.packages }}
+          package-name: ${{ matrix.packages }}
