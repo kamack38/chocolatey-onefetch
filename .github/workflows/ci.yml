@@ -4,7 +4,6 @@ on: push
 
 jobs:
   test:
-    needs: pre
     uses: kamack38/chocopkgs/.github/workflows/_test-package.yml@master
     with:
       packages: >-
