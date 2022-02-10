@@ -1,0 +1,27 @@
+name: CI/CD
+
+on:
+  push:
+    paths:
+      - '**/action**'
+      - '**/workflows/test-action.yml'
+
+jobs:
+  test-action:
+    runs-on: windows-2019
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2.3.4
+      - name: Add New Package Source
+        uses: crazy-max/ghaction-chocolatey@v1
+        with:
+          args: source add --name='repo' --source='./nupkgs/' --priority='1'
+      - name: Install Action!
+        uses: crazy-max/ghaction-chocolatey@v1
+        timeout-minutes: 2
+        with:
+          args: install action -dvy
+      - name: Uninstall Action!
+        uses: crazy-max/ghaction-chocolatey@v1
+        with:
+          args: uninstall action -dvy

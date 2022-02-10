@@ -1,0 +1,29 @@
+name: CI/CD
+
+on:
+  push:
+    paths:
+      - '**/tree-sitter**'
+      - '**/workflows/test-tree-sitter.yml'
+
+jobs:
+  verify-packages:
+    runs-on: windows-2019
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2.3.4
+      - name: Add New Package Source
+        uses: crazy-max/ghaction-chocolatey@v1
+        with:
+          args: source add --name='repo' --source='./nupkgs/' --priority='1'
+      - name: Install tree-sitter
+        uses: crazy-max/ghaction-chocolatey@v1
+        timeout-minutes: 2
+        continue-on-error: true
+        with:
+          args: install tree-sitter -dvy
+      - name: Uninstall tree-sitter
+        uses: crazy-max/ghaction-chocolatey@v1
+        continue-on-error: false
+        with:
+          args: uninstall tree-sitter -dvy
