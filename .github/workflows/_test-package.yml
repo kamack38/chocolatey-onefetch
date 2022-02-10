@@ -8,7 +8,10 @@ on:
         type: string
 
 jobs:
-  setup:
+  test-packages:
+    strategy:
+      matrix:
+        package-name: ${{ fromJson(inputs.packages) }}
     runs-on: windows-2019
     steps:
       - name: Checkout
@@ -17,12 +20,6 @@ jobs:
         uses: crazy-max/ghaction-chocolatey@v1
         with:
           args: source add --name='repo' --source='./nupkgs/' --priority='1'
-  test-packages:
-    strategy:
-      matrix:
-        package-name: ${{ fromJson(inputs.packages) }}
-    runs-on: windows-2019
-    steps:
       - name: Install ${{ matrix.package-name }}
         uses: crazy-max/ghaction-chocolatey@v1
         timeout-minutes: 3
