@@ -1,0 +1,40 @@
+name: CI
+
+on: push
+
+jobs:
+  pre:
+    timeout-minutes: 20
+    runs-on: windows-2019
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2.3.4
+      - name: Add New Package Source
+        uses: crazy-max/ghaction-chocolatey@v1
+        with:
+          args: source add --name='repo' --source='./nupkgs/' --priority='1'
+  test:
+    needs: pre
+    strategy:
+      fail-fast: false
+      matrix:
+        packages:
+          [
+            '7tt',
+            'action',
+            'betterdiscord',
+            blitz.gg',
+            'betterdiscord',
+            'dcforoffice',
+            'jarfix.portable',
+            'leagueoflegendseune',
+            'nvm.install',
+            'onefetch',
+            'portmaster',
+            'tree-sitter',
+          ]
+    timeout-minutes: 20
+    runs-on: windows-2019
+    steps:
+      - name: Test Package
+        uses: kamack38/chocopkgs/.github/workflows/test-package.yml@master

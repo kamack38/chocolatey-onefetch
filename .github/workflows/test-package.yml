@@ -1,0 +1,23 @@
+name: CI - Test Package
+
+on:
+  workflow_call:
+    inputs:
+      package-name:
+        required: true
+        type: string
+jobs:
+  test-packages:
+    runs-on: windows-2019
+    steps:
+      - name: Install ${{ inputs.package-name }}
+        uses: crazy-max/ghaction-chocolatey@v1
+        timeout-minutes: 3
+        continue-on-error: true
+        with:
+          args: install ${{ inputs.package-name }} -dvy
+      - name: Uninstall ${{ inputs.package-name }}
+        uses: crazy-max/ghaction-chocolatey@v1
+        continue-on-error: false
+        with:
+          args: uninstall ${{ inputs.package-name }} -dvy
