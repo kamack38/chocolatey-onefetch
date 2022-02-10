@@ -15,7 +15,7 @@ jobs:
           args: source add --name='repo' --source='./nupkgs/' --priority='1'
   test:
     needs: pre
-    uses: kamack38/chocopkgs/.github/workflows/test-package.yml@master
+    uses: kamack38/chocopkgs/.github/workflows/_test-package.yml@master
     with:
       packages: '[
         "7tt",
