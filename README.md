@@ -3,6 +3,15 @@
 This Repository contains all of my chocolatey packages.
 [My chocolatey profile](https://community.chocolatey.org/profiles/kamack38)
 
+<p align="center">
+    <a href="https://github.com/kamack38/chocopkgs/issues">
+        <img alt="GitHub issues" src="https://img.shields.io/github/issues/kamack38/chocopkgs?style=flat-square">
+    </a>
+    <a href="https://github.com/kamack38/chocopkgs/actions">
+        <img alt="GitHub issues" src="https://img.shields.io/github/workflow/status/kamack38/chocopkgs/CI?event=push&style=flat-square&logo=GitHub&label=Packages%20Test">
+    </a>
+</p>
+
 ## <img src="./assets/Action.png" height="32"/> Action
 
 _This package is automatically updated using [AU](https://github.com/majkinetor/au)_
