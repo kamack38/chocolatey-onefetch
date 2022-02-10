@@ -17,17 +17,18 @@ jobs:
     needs: pre
     uses: kamack38/chocopkgs/.github/workflows/_test-package.yml@master
     with:
-      packages: '[
-        "7tt",
-        "action",
-        "betterdiscord",
-        blitz.gg",
-        "betterdiscord",
-        "dcforoffice",
-        "jarfix.portable",
-        "leagueoflegendseune",
-        "nvm.install",
-        "onefetch",
-        "portmaster",
-        "tree-sitter",
-        ]'
+      packages: >-
+        [
+          "7tt",
+          "action",
+          "betterdiscord",
+          "blitz.gg",
+          "betterdiscord",
+          "dcforoffice",
+          "jarfix.portable",
+          "leagueoflegendseune",
+          "nvm.install",
+          "onefetch",
+          "portmaster",
+          "tree-sitter",
+          ]
