@@ -16,7 +16,7 @@ param(
 
 choco pack "$PSScriptRoot\packages\$PackageName\$PackageName.nuspec" --outputdirectory $PSScriptRoot\nupkgs
 
-if ($p) {
+if ($p -and $?) {
     $nupkg = Get-ChildItem -Path $PSScriptRoot\nupkgs | Where-Object Name -match "$PackageName*"
     choco push $nupkg
 }
