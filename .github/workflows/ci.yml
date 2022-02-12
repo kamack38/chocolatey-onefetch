@@ -20,6 +20,7 @@ jobs:
           "jarfix.portable",
           "leagueoflegendseune",
           "nvm.install",
+          "nvm.portable",
           "onefetch",
           "portmaster",
           "tree-sitter",

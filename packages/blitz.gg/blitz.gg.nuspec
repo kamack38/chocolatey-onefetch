@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
+    <title>Blitz.gg</title>
     <id>blitz.gg</id>
     <version>1.16.24</version>
-    <packageSourceUrl>https://github.com/kamack38/chocopkgs/tree/master/packages/blitz.gg</packageSourceUrl>
-    <owners>Kamack38</owners>
-    <title>Blitz.gg</title>
     <authors>Blitz Inc.</authors>
-    <projectUrl>https://blitz.gg/</projectUrl>
+    <owners>Kamack38</owners>
+    <packageSourceUrl>https://github.com/kamack38/chocopkgs/tree/master/packages/blitz.gg</packageSourceUrl>
     <iconUrl>https://rawcdn.githack.com/kamack38/chocopkgs/master/assets/Blitz.gg.png</iconUrl>
+    <projectUrl>https://blitz.gg/</projectUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <licenseUrl>https://blitz.gg/terms-of-service</licenseUrl>
     <copyright><![CDATA[Copyright © 2021 Blitz, Inc.]]></copyright>
     <docsUrl>https://support.blitz.gg/hc/en-us</docsUrl>
     <tags>blitz leageoflegends lol tracker status fortnite valorant</tags>
-    <summary>Everything you need to win — all bundled into a revolutionary desktop app powered by AI, and built with professional players.</summary>
+    <summary>Everything you need to win - all bundled into a revolutionary desktop app powered by AI, and built with professional players.</summary>
     <description><![CDATA[
 # Blitz.gg
 
@@ -36,15 +38,18 @@ Blitz tells you what goals to achieve and delivers them to you directly in game 
 Find out everything about how you and your opponents play with in-depth profile statistics.
 
 [See how it works](https://www.youtube.com/watch?v=lMFQLbPkW8Y)
-    ]]>    </description>
+    ]]>
+    </description>
     <releaseNotes><![CDATA[
     **League of Legends**
 
-    - Make various fixes & improvements to drafting
+    - Don't filter out summoner's pick from suggestions
+    - Update ranked icons
 
     **Teamfight Tactics**
 
-    - Add Opponent Tags & Leveling Overlay
+    - Add set update page for Set 6.5
+    - Restore Matchup Tracking overlay
     ]]>    </releaseNotes>
   </metadata>
   <files>
