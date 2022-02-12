@@ -15,7 +15,7 @@ $packageArgs = @{
   unzipLocation = $nvmPath
   url           = 'https://github.com/coreybutler/nvm-windows/releases/download/1.1.9/nvm-noinstall.zip'
   checksum      = '81e651ec6d848075d557cca929af682f63a77d4fab44c202f25a20c0aba33749'
-  checksumType  = 'sha512'
+  checksumType  = 'sha256'
 }
 Install-ChocolateyZipPackage @packageArgs
 
