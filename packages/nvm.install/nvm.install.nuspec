@@ -15,7 +15,7 @@
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <licenseUrl>https://github.com/coreybutler/nvm-windows/blob/master/LICENSE</licenseUrl>
     <copyright>Copyright (c) 2021 Ecor Ventures LLC.</copyright>
-    <tags>nvm node nodejs version manager</tags>
+    <tags>nvm node nodejs node.js version manager windows</tags>
     <summary>A node.js version management utility for Windows. Ironically written in Go.</summary>
     <description>
       <![CDATA[
