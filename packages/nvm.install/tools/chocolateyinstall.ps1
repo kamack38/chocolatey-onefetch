@@ -14,5 +14,5 @@ $packageArgs = @{
 }
 
 Install-ChocolateyZipPackage @packageArgs
-New-Item -Path "$toolsDir\nvm-setup.exe.ignore"
+New-Item -Path "$toolsDir\nvm-setup.exe.ignore" -ItemType File
 Start-Process $toolsDir\nvm-setup.exe -ArgumentList "/VERYSILENT /NOCIONS /DIR=$nvmPath"
