@@ -17,10 +17,10 @@ This Repository contains all of my chocolatey packages.
     - [<img src="./assets/Action.png" height="32"/> Action](#-action)
     - [<img src="https://betterdiscord.app/resources/branding/logo_small.svg" height="32"/> BetterDiscord](#-betterdiscord)
     - [<img src="./assets/Blitz.gg.png" height="32"/> Blitz.gg](#-blitzgg)
-    - [<img src="https://rawcdn.githack.com/kamack38/chocopkgs/56594ddb42f1bcb613dbf1883602d15db6a54ca9/assets/BorderlessMinecraft.png" height="32" /> BorderlessMinecraft](#-borderlessminecraft)
+    - [<img src="./assets/BorderlessMinecraft.png" height="32" /> BorderlessMinecraft](#-borderlessminecraft)
     - [<img src="./assets/DiscordForOffice.png" height="32"/> DiscordForOffice](#-discordforoffice)
     - [<img src="./assets/Jarfix.png" height="32"/> Jarfix](#-jarfix)
-    - [<img src="https://devstickers.com/assets/img/cat/nodejs.png" height="32" /> nvm.install](#-nvminstall)
+    - [<img src="./assets/nodejs.png" height="32" /> nvm.install](#-nvminstall)
     - [<img src="./assets/LeagueOfLegends.svg" height="32"/> League Of Legends](#-league-of-legends)
     - [<img src="https://rawcdn.githack.com/o2sh/onefetch/main/assets/onefetch.svg" height="32" /> Oneftech](#-oneftech)
     - [<img src="https://rawcdn.githack.com/safing/web/e0e0e480affba5cc09d8eaa50f0c2a4b411278fb/assets/img/logo/logo.svg" height="32"/> Portmaster](#-portmaster)
@@ -74,13 +74,13 @@ _This package is automatically updated using [AU](https://github.com/majkinetor/
 choco install blitz.gg
 ```
 
-## <img src="https://rawcdn.githack.com/kamack38/chocopkgs/56594ddb42f1bcb613dbf1883602d15db6a54ca9/assets/BorderlessMinecraft.png" height="32" /> BorderlessMinecraft
+## <img src="./assets/BorderlessMinecraft.png" height="32" /> BorderlessMinecraft
 
 _This package is automatically updated using [AU](https://github.com/majkinetor/au)_
 
 > This application allows Minecraft to run as a borderless window. The default fullscreen mode does not allow other windows to be placed above it and does not allow users to mouse away from Minecraft without it minimizing.
 
-[[Source](https://github.com/tree-sitter/tree-sitter)] [[Chocolatey](https://community.chocolatey.org/packages/tree-sitter/)]
+[[Source](https://github.com/Mr-Technician/BorderlessMinecraft)] [[Chocolatey](https://community.chocolatey.org/packages/borderlessminecraft/)]
 
 ```powershell
 choco install borderlessminecraft
@@ -110,7 +110,7 @@ If you like this package you can also install tab-completion for nvm [here](http
 choco install jarfix
 ```
 
-## <img src="https://devstickers.com/assets/img/cat/nodejs.png" height="32" /> nvm.install
+## <img src="./assets/nodejs.png" height="32" /> nvm.install
 
 _This package is automatically updated using [AU](https://github.com/majkinetor/au)_
 
