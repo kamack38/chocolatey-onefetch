@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
+    <title>OneFetch</title>
     <id>onefetch</id>
     <version>2.11.0</version>
-    <packageSourceUrl>https://github.com/kamack38/chocopkgs/tree/master/packages/onefetch</packageSourceUrl>
-    <owners>Kamack38</owners>
-    <title>OneFetch</title>
     <authors>o2sh, contributors</authors>
-    <projectUrl>https://github.com/o2sh/onefetch</projectUrl>
+    <owners>Kamack38</owners>
+    <packageSourceUrl>https://github.com/kamack38/chocopkgs/tree/master/packages/onefetch</packageSourceUrl>
     <iconUrl>https://rawcdn.githack.com/o2sh/onefetch/main/assets/onefetch.svg</iconUrl>
-    <copyright>Copyright (c) 2018 Ossama Hjaji</copyright>
-    <licenseUrl>https://github.com/o2sh/onefetch/blob/main/LICENSE.md</licenseUrl>
-    <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <projectSourceUrl>https://github.com/o2sh/onefetch/tree/main</projectSourceUrl>
     <docsUrl>https://github.com/o2sh/onefetch/wiki</docsUrl>
     <bugTrackerUrl>https://github.com/o2sh/onefetch/issues</bugTrackerUrl>
+    <projectUrl>https://github.com/o2sh/onefetch</projectUrl>
+    <projectSourceUrl>https://github.com/o2sh/onefetch/tree/main</projectSourceUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/o2sh/onefetch/blob/main/LICENSE.md</licenseUrl>
+    <copyright>Copyright (c) 2018 Ossama Hjaji</copyright>
     <tags>onefetch git repo info repoinfo</tags>
     <summary>Onefetch is a command-line Git information tool written in Rust that displays project information and code statistics for a local Git repository directly on your terminal.</summary>
     <description><![CDATA[
