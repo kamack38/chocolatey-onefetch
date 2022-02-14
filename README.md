@@ -132,6 +132,8 @@ _This package is automatically updated using [AU](https://github.com/majkinetor/
 choco install nvm.install
 ```
 
+If you like this package you can also install tab-completion for nvm [here](https://github.com/kamack38/posh-nvm-completion).
+
 ## <img src="./assets/Jarfix.png" height="32"/> Jarfix
 
 > If you doubleclick on a jar file, and your Java application does not start, your .jar association has been hijacked. You can fix the problem with Jarfix.
