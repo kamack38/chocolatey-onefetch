@@ -1,7 +1,7 @@
 name: 🐛 Bug report
 description: Report errors or unexpected behavior
-title: "[Bug]: "
-labels: ["bug"]
+title: '[Bug]: '
+labels: ['bug']
 assignees:
   - kamack38
 body:
@@ -16,11 +16,19 @@ body:
       label: Package
       description: Pick the package you have issue with.
       options:
+        - 7tt
         - action
+        - betterdiscord
         - blitz.gg
+        - borderlessminecraft
         - dcforoffice
-        - leagueoflegends
+        - jarfix
+        - leagueoflegendseune
+        - nvm.install
+        - nvm.portable
         - onefetch
+        - portmaster
+        - tree-sitter
 
   - type: textarea
     id: what-happened
