@@ -4,6 +4,7 @@ on:
   workflow_call:
     inputs:
       packages:
+        description: 'YAML array containing IDs of the packages'
         required: true
         type: string
 
