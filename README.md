@@ -13,20 +13,20 @@ This Repository contains all of my chocolatey packages.
 </p>
 
 - [<img src="./assets/Chocolatey.svg" height="32" /> Chocolatey Packages](#-chocolatey-packages)
-    - [<img src="./assets/7tt.png" height="32"/> 7+ Taskbar Tweaker](#-7-taskbar-tweaker)
-    - [<img src="./assets/Action.png" height="32"/> Action](#-action)
-    - [<img src="https://betterdiscord.app/resources/branding/logo_small.svg" height="32"/> BetterDiscord](#-betterdiscord)
-    - [<img src="./assets/Blitz.gg.png" height="32"/> Blitz.gg](#-blitzgg)
-    - [<img src="./assets/BorderlessMinecraft.png" height="32" /> BorderlessMinecraft](#-borderlessminecraft)
-    - [<img src="./assets/DiscordForOffice.png" height="32"/> DiscordForOffice](#-discordforoffice)
-    - [<img src="./assets/Jarfix.png" height="32"/> Jarfix](#-jarfix)
-    - [<img src="./assets/nodejs.png" height="32" /> nvm.install](#-nvminstall)
-    - [<img src="./assets/LeagueOfLegends.svg" height="32"/> League Of Legends](#-league-of-legends)
-    - [<img src="https://rawcdn.githack.com/o2sh/onefetch/main/assets/onefetch.svg" height="32" /> Oneftech](#-oneftech)
-    - [<img src="https://rawcdn.githack.com/safing/web/e0e0e480affba5cc09d8eaa50f0c2a4b411278fb/assets/img/logo/logo.svg" height="32"/> Portmaster](#-portmaster)
-    - [<img src="https://rawcdn.githack.com/tree-sitter/tree-sitter/7bac34c925ac6fc5493c9ebd4cfc07cf5e1e92f0/docs/assets/images/tree-sitter-small.png" height="32" /> tree-sitter](#-tree-sitter)
+    - [<img src="./assets/7tt.png" height="24"/> 7+ Taskbar Tweaker](#-7-taskbar-tweaker)
+    - [<img src="./assets/Action.png" height="24"/> Action](#-action)
+    - [<img src="https://betterdiscord.app/resources/branding/logo_small.svg" height="24"/> BetterDiscord](#-betterdiscord)
+    - [<img src="./assets/Blitz.gg.png" height="24"/> Blitz.gg](#-blitzgg)
+    - [<img src="./assets/BorderlessMinecraft.png" height="24" /> BorderlessMinecraft](#-borderlessminecraft)
+    - [<img src="./assets/DiscordForOffice.png" height="24"/> DiscordForOffice](#-discordforoffice)
+    - [<img src="./assets/Jarfix.png" height="24"/> Jarfix](#-jarfix)
+    - [<img src="./assets/nodejs.png" height="24" /> nvm.install](#-nvminstall)
+    - [<img src="./assets/LeagueOfLegends.svg" height="24"/> League Of Legends](#-league-of-legends)
+    - [<img src="https://rawcdn.githack.com/o2sh/onefetch/main/assets/onefetch.svg" height="24" /> Oneftech](#-oneftech)
+    - [<img src="https://rawcdn.githack.com/safing/web/e0e0e480affba5cc09d8eaa50f0c2a4b411278fb/assets/img/logo/logo.svg" height="24"/> Portmaster](#-portmaster)
+    - [<img src="https://rawcdn.githack.com/tree-sitter/tree-sitter/7bac34c925ac6fc5493c9ebd4cfc07cf5e1e92f0/docs/assets/images/tree-sitter-small.png" height="24" /> tree-sitter](#-tree-sitter)
 
-## <img src="./assets/7tt.png" height="32"/> 7+ Taskbar Tweaker
+## <img src="./assets/7tt.png" height="24"/> 7+ Taskbar Tweaker
 
 _This package is automatically updated using [AU](https://github.com/majkinetor/au)_
 
@@ -38,7 +38,7 @@ _This package is automatically updated using [AU](https://github.com/majkinetor/
 choco install 7tt
 ```
 
-## <img src="./assets/Action.png" height="32"/> Action
+## <img src="./assets/Action.png" height="24"/> Action
 
 _This package is automatically updated using [AU](https://github.com/majkinetor/au)_
 
@@ -50,7 +50,7 @@ _This package is automatically updated using [AU](https://github.com/majkinetor/
 choco install action
 ```
 
-## <img src="https://betterdiscord.app/resources/branding/logo_small.svg" height="32"/> BetterDiscord
+## <img src="https://betterdiscord.app/resources/branding/logo_small.svg" height="24"/> BetterDiscord
 
 _This package is automatically updated using [AU](https://github.com/majkinetor/au)_
 
@@ -62,11 +62,11 @@ _This package is automatically updated using [AU](https://github.com/majkinetor/
 choco install betterdiscord
 ```
 
-## <img src="./assets/Blitz.gg.png" height="32"/> Blitz.gg
+## <img src="./assets/Blitz.gg.png" height="24"/> Blitz.gg
 
 _This package is automatically updated using [AU](https://github.com/majkinetor/au)_
 
-> Everything you need to win — all bundled into a revolutionary desktop app powered by AI, and built with professional players.
+> Everything you need to win - all bundled into a revolutionary desktop app powered by AI, and built with professional players.
 
 [[Source](https://blitz.gg/)] [[Chocolatey](https://community.chocolatey.org/packages/blitz.gg/)]
 
@@ -74,7 +74,7 @@ _This package is automatically updated using [AU](https://github.com/majkinetor/
 choco install blitz.gg
 ```
 
-## <img src="./assets/BorderlessMinecraft.png" height="32" /> BorderlessMinecraft
+## <img src="./assets/BorderlessMinecraft.png" height="24" /> BorderlessMinecraft
 
 _This package is automatically updated using [AU](https://github.com/majkinetor/au)_
 
@@ -86,7 +86,7 @@ _This package is automatically updated using [AU](https://github.com/majkinetor/
 choco install borderlessminecraft
 ```
 
-## <img src="./assets/DiscordForOffice.png" height="32"/> DiscordForOffice
+## <img src="./assets/DiscordForOffice.png" height="24"/> DiscordForOffice
 
 _This package is automatically updated using [AU](https://github.com/majkinetor/au)_
 
@@ -100,7 +100,7 @@ choco install dcforoffice
 
 If you like this package you can also install tab-completion for nvm [here](https://github.com/kamack38/posh-nvm-completion).
 
-## <img src="./assets/Jarfix.png" height="32"/> Jarfix
+## <img src="./assets/Jarfix.png" height="24"/> Jarfix
 
 > If you doubleclick on a jar file, and your Java application does not start, your .jar association has been hijacked. You can fix the problem with Jarfix.
 
@@ -110,7 +110,7 @@ If you like this package you can also install tab-completion for nvm [here](http
 choco install jarfix
 ```
 
-## <img src="./assets/nodejs.png" height="32" /> nvm.install
+## <img src="./assets/nodejs.png" height="24" /> nvm.install
 
 _This package is automatically updated using [AU](https://github.com/majkinetor/au)_
 
@@ -122,7 +122,7 @@ _This package is automatically updated using [AU](https://github.com/majkinetor/
 choco install nvm.install
 ```
 
-## <img src="./assets/LeagueOfLegends.svg" height="32"/> League Of Legends
+## <img src="./assets/LeagueOfLegends.svg" height="24"/> League Of Legends
 
 _This package is automatically updated using [AU](https://github.com/majkinetor/au)_
 
@@ -134,7 +134,7 @@ _This package is automatically updated using [AU](https://github.com/majkinetor/
 choco install leagueoflegendseune
 ```
 
-## <img src="https://rawcdn.githack.com/o2sh/onefetch/main/assets/onefetch.svg" height="32" /> Oneftech
+## <img src="https://rawcdn.githack.com/o2sh/onefetch/main/assets/onefetch.svg" height="24" /> Oneftech
 
 _This package is automatically updated using [AU](https://github.com/majkinetor/au)_
 
@@ -146,7 +146,7 @@ _This package is automatically updated using [AU](https://github.com/majkinetor/
 choco install onefetch
 ```
 
-## <img src="https://rawcdn.githack.com/safing/web/e0e0e480affba5cc09d8eaa50f0c2a4b411278fb/assets/img/logo/logo.svg" height="32"/> Portmaster
+## <img src="https://rawcdn.githack.com/safing/web/e0e0e480affba5cc09d8eaa50f0c2a4b411278fb/assets/img/logo/logo.svg" height="24"/> Portmaster
 
 _This package is automatically updated using [AU](https://github.com/majkinetor/au)_
 
@@ -158,7 +158,7 @@ _This package is automatically updated using [AU](https://github.com/majkinetor/
 choco install portmaster
 ```
 
-## <img src="https://rawcdn.githack.com/tree-sitter/tree-sitter/7bac34c925ac6fc5493c9ebd4cfc07cf5e1e92f0/docs/assets/images/tree-sitter-small.png" height="32" /> tree-sitter
+## <img src="https://rawcdn.githack.com/tree-sitter/tree-sitter/7bac34c925ac6fc5493c9ebd4cfc07cf5e1e92f0/docs/assets/images/tree-sitter-small.png" height="24" /> tree-sitter
 
 _This package is automatically updated using [AU](https://github.com/majkinetor/au)_
 
