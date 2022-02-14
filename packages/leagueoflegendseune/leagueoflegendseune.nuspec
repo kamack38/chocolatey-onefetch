@@ -8,7 +8,7 @@
     <title>League Of Legends (EUNE)</title>
     <authors>Riot Games, Inc</authors>
     <projectUrl>https://www.leagueoflegends.com/</projectUrl>
-    <iconUrl>https://rawcdn.githack.com/kamack38/chocopkgs/master/assets/LeagueOfLegends.svg</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/kamack38/chocopkgs/8c8ba1ed2152f8f0b997618627010a980bfe6661/assets/LeagueOfLegends.svg</iconUrl>
     <copyright><![CDATA[© 2021 Riot Games, inc. All rights reserved.]]></copyright>
     <licenseUrl>https://www.riotgames.com/en/terms-of-service</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
