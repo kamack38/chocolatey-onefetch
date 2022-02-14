@@ -136,7 +136,7 @@ choco install nvm.install
 
 > If you doubleclick on a jar file, and your Java application does not start, your .jar association has been hijacked. You can fix the problem with Jarfix.
 
-[[Source](https://johann.loefflmann.net/en/software/jarfix/index.html)] [[Chocolatey](https://community.chocolatey.org/packages/jarfix.portable/)]
+[[Source](https://johann.loefflmann.net/en/software/jarfix/index.html)] [[Chocolatey](https://community.chocolatey.org/packages/jarfix/)]
 
 ```powershell
 choco install jarfix

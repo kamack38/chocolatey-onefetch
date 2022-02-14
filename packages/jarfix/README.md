@@ -46,5 +46,5 @@ In order to feed jarfix with an alternate configuration file, simple create a fi
 ## Installation
 
 ```powershell
-choco install jarfix.portable
+choco install jarfix
 ```

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
-    <id>jarfix.portable</id>
+    <id>jarfix</id>
     <version>3.0.0</version>
     <packageSourceUrl>https://github.com/kamack38/chocopkgs/tree/master/packages/jarfix.portable</packageSourceUrl>
     <owners>Kamack38</owners>
@@ -13,7 +13,6 @@
     <licenseUrl>https://johann.loefflmann.net/downloads/jarfix-license.txt</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <docsUrl>https://johann.loefflmann.net/en/software/jarfix/index.html#Description</docsUrl>
-    <bugTrackerUrl>https://github.com/7coil/DiscordForOffice/issues</bugTrackerUrl>
     <tags>java fix problem jar file</tags>
     <summary>If you doubleclick on a jar file, and your Java application does not start, your .jar association has been hijacked. You can fix the problem with Jarfix.</summary>
     <description><![CDATA[
