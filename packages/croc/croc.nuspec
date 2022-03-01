@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
-    <title>Croc</title>
+    <title>croc</title>
     <id>croc</id>
     <version>9.5.2</version>
     <authors>schollz, contributors</authors>
     <owners>Kamack38</owners>
     <packageSourceUrl>https://github.com/kamack38/chocopkgs/tree/master/packages/croc</packageSourceUrl>
-    <iconUrl>https://user-images.githubusercontent.com/6550035/46709024-9b23ad00-cbf6-11e8-9fb2-ca8b20b7dbec.jpg</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/kamack38/chocopkgs/486b9960e0cb890d7ff49059ebe520fa78133ca3/assets/croc.png</iconUrl>
     <bugTrackerUrl>https://github.com/schollz/croc/issues</bugTrackerUrl>
     <projectUrl>https://schollz.com/blog/croc6/</projectUrl>
     <projectSourceUrl>https://github.com/schollz/croc</projectSourceUrl>
@@ -17,11 +17,9 @@
     <tags>croc file transfer send encryption</tags>
     <summary>Easily and securely send things from one computer to another 🐊 📦</summary>
     <description><![CDATA[
-# Croc
+# croc
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/6550035/46709024-9b23ad00-cbf6-11e8-9fb2-ca8b20b7dbec.jpg" width="408px"
-</p>
+![Banner](https://rawcdn.githack.com/kamack38/chocopkgs/486b9960e0cb890d7ff49059ebe520fa78133ca3/assets/CrocBanner.png)
 
 `croc` is a tool that allows any two computers to simply and securely transfer files and folders. AFAIK, _croc_ is the only CLI file-transfer tool that does **all** of the following:
 
@@ -81,7 +79,6 @@ croc send --text "hello world"
 This will automatically tell the receiver to use `stdout` when they receive the text so it will be displayed.
 
 Check out the [official repository](https://github.com/schollz/croc) for more information.
-```
     ]]>    </description>
     <releaseNotes>https://github.com/schollz/croc/releases/latest</releaseNotes>
   </metadata>
