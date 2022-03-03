@@ -18,6 +18,7 @@ This Repository contains all of my chocolatey packages.
     - [<img src="https://betterdiscord.app/resources/branding/logo_small.svg" height="24"/> BetterDiscord](#-betterdiscord)
     - [<img src="./assets/Blitz.gg.png" height="24"/> Blitz.gg](#-blitzgg)
     - [<img src="./assets/BorderlessMinecraft.png" height="24" /> BorderlessMinecraft](#-borderlessminecraft)
+    - [<img src="./assets/croc.png" height="24" /> Croc](#-croc)
     - [<img src="./assets/DiscordForOffice.png" height="24"/> DiscordForOffice](#-discordforoffice)
     - [<img src="./assets/Jarfix.png" height="24"/> Jarfix](#-jarfix)
     - [<img src="./assets/nodejs.png" height="24" /> nvm.install](#-nvminstall)
@@ -84,6 +85,18 @@ _This package is automatically updated using [AU](https://github.com/majkinetor/
 
 ```powershell
 choco install borderlessminecraft
+```
+
+## <img src="./assets/croc.png" height="24" /> Croc
+
+_This package is automatically updated using [AU](https://github.com/majkinetor/au)_
+
+> Easily and securely send things from one computer to another 🐊 📦
+
+[[Source](https://github.com/schollz/croc)] [[Chocolatey](https://community.chocolatey.org/packages/croc/)]
+
+```powershell
+choco install croc
 ```
 
 ## <img src="./assets/DiscordForOffice.png" height="24"/> DiscordForOffice
