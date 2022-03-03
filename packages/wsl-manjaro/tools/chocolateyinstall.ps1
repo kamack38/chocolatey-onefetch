@@ -13,11 +13,14 @@ $packageArgs = @{
   unzipLocation = $toolsDir
 }
 
+$shortcutArgs = @{
+  shortcutFilePath = Join-Path $env:APPDATA "Microsoft\Windows\Start Menu\Programs\Manjaro.lnk"
+  targetPath       = $exePath
+}
+
 Install-ChocolateyZipPackage @packageArgs
-New-Item -Path "$exePath.ignore" -ItemType File
 Start-Process -FilePath $exePath
 
-$installable = $true
 wsl --set-default-version 2
 
 & $exePath isregd
@@ -26,7 +29,10 @@ if ($?) {
   exit 1
 }
 
-if ($installable) {
-  $res = Start-Process -FilePath $exePath -ArgumentList 'install', $rootfsPath
-  if (!$res) { Write-Error 'ManjaroWsl installation failed!'; exit 1 }
+$res = Start-Process -FilePath $exePath -ArgumentList 'install', $rootfsPath
+if (!$res) { Write-Error 'ManjaroWsl installation failed!'; exit 1 }
+
+if (Get-Command wt.exe) {
+  & $exePath config --default-term wt
 }
+Install-ChocolateyShortcut @shortcutArgs
