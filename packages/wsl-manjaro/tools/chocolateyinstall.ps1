@@ -1,4 +1,4 @@
-﻿$ErrorActionPreference = 'Stop';
+﻿$ErrorActionPreference = 'Continue';
 
 $packageName = $env:chocolateyPackageName
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
@@ -29,8 +29,8 @@ if ($?) {
   exit 1
 }
 
-$res = Start-Process -FilePath $exePath -ArgumentList 'install', $rootfsPath
-if (!$res) { Write-Error 'ManjaroWsl installation failed!'; exit 1 }
+Invoke-Expression -Command "$exePath install $rootfsPath"
+if ($?) { Write-Error 'ManjaroWsl installation failed!'; exit 1 }
 
 if (Get-Command wt.exe) {
   & $exePath config --default-term wt

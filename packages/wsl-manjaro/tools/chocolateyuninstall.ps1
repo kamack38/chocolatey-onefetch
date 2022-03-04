@@ -1,4 +1,4 @@
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $exePath = Join-Path $toolsDir "Manjaro.exe"
 
-& $exePath clean -y
+Invoke-Expression -Command "$exePath clean -y"
