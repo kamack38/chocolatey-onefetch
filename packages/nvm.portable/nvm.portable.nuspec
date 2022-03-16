@@ -7,9 +7,9 @@
     <id>nvm.portable</id>
     <version>1.1.9</version>
     <authors>coreybutler</authors>
-    <owners>Ariel Jannai, Ethan Spoelstra</owners>
+    <owners>kamack38</owners>
     <packageSourceUrl>https://github.com/arieljannai/chocolatey-nvm-windows</packageSourceUrl>
-    <iconUrl>http://devstickers.com/assets/img/cat/nodejs.png</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/kamack38/chocopkgs/9bb968ea5a6c72ed74ac22406b93a9f1ca4491a5/assets/nodejs.png</iconUrl>
     <docsUrl>https://github.com/coreybutler/nvm-windows/wiki</docsUrl>
     <bugTrackerUrl>https://github.com/coreybutler/nvm-windows/issues</bugTrackerUrl>
     <projectUrl>https://github.com/coreybutler/nvm-windows</projectUrl>
@@ -22,8 +22,6 @@
     <description>
       <![CDATA[
 # NVM
-
-# WARNING: This package requires administrator privilages to install!
 
 ## Overview
 
@@ -56,7 +54,7 @@ NVM for Windows is a command line tool. Simply type `nvm` in the console for hel
 - `nvm npm_mirror ﹤npm_mirror_url﹥`: Set the npm mirror.
     ]]>
     </description>
-    <releaseNotes>https://github.com/arieljannai/chocolatey-nvm-windows/blob/master/CHANGELOG.md</releaseNotes>
+    <releaseNotes>https://github.com/coreybutler/nvm-windows/releases/latest</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
