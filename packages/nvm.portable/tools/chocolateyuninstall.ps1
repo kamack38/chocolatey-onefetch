@@ -8,7 +8,6 @@ $EnvVariableType = 'Machine'
 
 $nvmPath = Split-Path $nvm
 
-Uninstall-ChocolateyZipPackage $packageName $zipName
 if (Test-Path $nvmPath) { Remove-Item $nvmPath -Force -Recurse }
 
 Install-ChocolateyEnvironmentVariable -VariableName "NVM_HOME" -VariableValue $null -VariableType $EnvVariableType
@@ -36,5 +35,6 @@ $newEnvironmentPath = Get-EnvironmentVariable -Name 'PATH' -Scope $EnvVariableTy
 "Path with values instead of variables"
 $env:PATH
 
+Uninstall-ChocolateyZipPackage $packageName $zipName
 
 $uninstalled = $true
