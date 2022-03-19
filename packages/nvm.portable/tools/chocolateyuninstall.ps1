@@ -1,5 +1,4 @@
-﻿
-$ErrorActionPreference = 'Stop'
+﻿$ErrorActionPreference = 'Stop'
 
 $uninstalled = $false
 $packageName = 'nvm'
