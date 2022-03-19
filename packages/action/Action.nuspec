@@ -24,7 +24,7 @@ Mirillis Action! screen recorder allows streaming and real-time recording of Win
 ![Logo](https://rawcdn.githack.com/kamack38/chocopkgs/master/assets/Action.png)
 
 
-## Instalation arguments
+## Installation arguments
 
 `/NoDesktopIcon` - Doesn't create shortcuts on the desktop
 `/NoStartMenuIcon` - Doesn't create shortcuts in the Start menu

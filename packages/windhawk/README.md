@@ -2,6 +2,10 @@
 
 ![Preview](https://rawcdn.githack.com/kamack38/chocopkgs/14f5a2a65f040ec4e7e2aa3542323c5c9f0fd402/assets/windhawkPreview.png)
 
+## Installation arguments
+
+`/Portable` - Installs the portable version
+
 ## Robust
 
 Stability and performance are a very high priority for Windhawk. It was designed to be constantly running in the background without having a noticeable impact on the system.
