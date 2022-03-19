@@ -37,6 +37,7 @@ There's no need to be a computer expert to use Windhawk, it can be used by every
 The mods that Windhawk offers are not black boxes. Each mod comes in the form of source code, which can be reviewed to make sure that the mod does exactly what it says.
     ]]>
     </description>
+    <releaseNotes>https://github.com/ramensoftware/windhawk/releases/latest</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
