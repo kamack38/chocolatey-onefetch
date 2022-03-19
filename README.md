@@ -26,6 +26,7 @@ This Repository contains all of my chocolatey packages.
     - [<img src="https://rawcdn.githack.com/o2sh/onefetch/main/assets/onefetch.svg" height="24" /> Oneftech](#-oneftech)
     - [<img src="https://rawcdn.githack.com/safing/web/e0e0e480affba5cc09d8eaa50f0c2a4b411278fb/assets/img/logo/logo.svg" height="24"/> Portmaster](#-portmaster)
     - [<img src="https://rawcdn.githack.com/tree-sitter/tree-sitter/7bac34c925ac6fc5493c9ebd4cfc07cf5e1e92f0/docs/assets/images/tree-sitter-small.png" height="24" /> tree-sitter](#-tree-sitter)
+    - [<img src="https://raw.githubusercontent.com/kamack38/chocopkgs/master/assets/windhawk.png" height="24" /> Windhawk](#-windhawk)
 
 ## <img src="./assets/7tt.png" height="24"/> 7+ Taskbar Tweaker
 
@@ -178,6 +179,18 @@ _This package is automatically updated using [AU](https://github.com/majkinetor/
 > Tree-sitter is a parser generator tool and an incremental parsing library. It can build a concrete syntax tree for a source file and efficiently update the syntax tree as the source file is edited.
 
 [[Source](https://github.com/tree-sitter/tree-sitter)] [[Chocolatey](https://community.chocolatey.org/packages/tree-sitter/)]
+
+```powershell
+choco install tree-sitter
+```
+
+## <img src="https://raw.githubusercontent.com/kamack38/chocopkgs/master/assets/windhawk.png" height="24" /> Windhawk
+
+_This package is automatically updated using [AU](https://github.com/majkinetor/au)_
+
+> The customization marketplace for Windows programs
+
+[[Source](https://windhawk.net/)] [[Chocolatey](https://community.chocolatey.org/packages/windhawk/)]
 
 ```powershell
 choco install tree-sitter
