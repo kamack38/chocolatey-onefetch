@@ -5,13 +5,17 @@
         "borderless",
         "borderlessminecraft",
         "choco",
+        "chocopkgs",
+        "croc",
         "dcforoffice",
+        "jarfix",
         "kamack",
         "leagueoflegends",
         "leagueoflegendseune",
         "Minecraft",
         "nupkgs",
         "onefetch",
-        "portmaster"
+        "portmaster",
+        "windhawk"
     ]
 }

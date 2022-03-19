@@ -25,4 +25,5 @@ jobs:
           "onefetch",
           "portmaster",
           "tree-sitter",
+          "windhawk"
           ]
