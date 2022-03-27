@@ -193,5 +193,5 @@ _This package is automatically updated using [AU](https://github.com/majkinetor/
 [[Source](https://windhawk.net/)] [[Chocolatey](https://community.chocolatey.org/packages/windhawk/)]
 
 ```powershell
-choco install tree-sitter
+choco install windhawk
 ```
