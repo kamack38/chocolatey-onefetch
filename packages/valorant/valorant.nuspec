@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
-    <title>League Of Legends (EUNE)</title>
+    <title>Valorant (EUNE)</title>
     <id>valorant</id>
     <version>41.0.5.4098838</version>
     <authors>Riot Games, Inc</authors>
