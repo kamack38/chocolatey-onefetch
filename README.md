@@ -219,5 +219,5 @@ _This package is automatically updated using [AU](https://github.com/majkinetor/
 [[Source](https://playvalorant.com/)] [[Chocolatey](https://community.chocolatey.org/packages/valorant/)]
 
 ```powershell
-choco install windhawk
+choco install valorant
 ```
