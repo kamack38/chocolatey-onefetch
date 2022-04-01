@@ -26,5 +26,6 @@ jobs:
           "portmaster",
           "tcno-acc-switcher",
           "tree-sitter",
-          "windhawk"
+          "windhawk",
+          "valorant"
           ]
