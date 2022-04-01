@@ -21,7 +21,7 @@ This Repository contains all of my chocolatey packages.
     - [<img src="./assets/croc.png" height="24" /> Croc](#-croc)
     - [<img src="./assets/DiscordForOffice.png" height="24"/> DiscordForOffice](#-discordforoffice)
     - [<img src="./assets/Jarfix.png" height="24"/> Jarfix](#-jarfix)
-    - [<img src="./assets/nodejs.png" height="24" /> nvm.install](#-nvminstall)
+    - [<img src="./assets/nodejs.png" height="24" /> NVM](#-nvm)
     - [<img src="./assets/LeagueOfLegends.svg" height="24"/> League Of Legends](#-league-of-legends)
     - [<img src="https://rawcdn.githack.com/o2sh/onefetch/main/assets/onefetch.svg" height="24" /> Oneftech](#-oneftech)
     - [<img src="https://rawcdn.githack.com/safing/web/e0e0e480affba5cc09d8eaa50f0c2a4b411278fb/assets/img/logo/logo.svg" height="24"/> Portmaster](#-portmaster)
@@ -123,16 +123,16 @@ choco install dcforoffice
 choco install jarfix
 ```
 
-## <img src="./assets/nodejs.png" height="24" /> nvm.install
+## <img src="./assets/nodejs.png" height="24" /> NVM
 
 _This package is automatically updated using [AU](https://github.com/majkinetor/au)_
 
 > A node.js version management utility for Windows. Ironically written in Go.
 
-[[Source](https://github.com/coreybutler/nvm-windows)] [[Chocolatey](https://community.chocolatey.org/packages/nvm.install/)]
+[[Source](https://github.com/coreybutler/nvm-windows)] [[Chocolatey](https://community.chocolatey.org/packages/nvm/)]
 
 ```powershell
-choco install nvm.install
+choco install nvm
 ```
 
 If you like this package you can also install tab-completion for nvm [here](https://github.com/kamack38/posh-nvm-completion).
