@@ -24,7 +24,7 @@ jobs:
           "nvm.portable",
           "onefetch",
           "portmaster",
-          "tcno-acc-switcher"
+          "tcno-acc-switcher",
           "tree-sitter",
           "windhawk"
           ]
