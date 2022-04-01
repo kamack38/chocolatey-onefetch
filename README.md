@@ -25,6 +25,7 @@ This Repository contains all of my chocolatey packages.
     - [<img src="./assets/LeagueOfLegends.svg" height="24"/> League Of Legends](#-league-of-legends)
     - [<img src="https://rawcdn.githack.com/o2sh/onefetch/main/assets/onefetch.svg" height="24" /> Oneftech](#-oneftech)
     - [<img src="https://rawcdn.githack.com/safing/web/e0e0e480affba5cc09d8eaa50f0c2a4b411278fb/assets/img/logo/logo.svg" height="24"/> Portmaster](#-portmaster)
+    - [<img src="https://rawcdn.githack.com/TcNobo/TcNo-Acc-Switcher/7490c2de7ff1e1a524c4357e9ba4b1e701b73ed8/other/img/icon/icon256.png" height="24" /> TcNo Account Switcher](#-tcno-account-switcher)
     - [<img src="https://rawcdn.githack.com/tree-sitter/tree-sitter/7bac34c925ac6fc5493c9ebd4cfc07cf5e1e92f0/docs/assets/images/tree-sitter-small.png" height="24" /> tree-sitter](#-tree-sitter)
     - [<img src="https://raw.githubusercontent.com/kamack38/chocopkgs/master/assets/windhawk.png" height="24" /> Windhawk](#-windhawk)
 
@@ -170,6 +171,18 @@ _This package is automatically updated using [AU](https://github.com/majkinetor/
 
 ```powershell
 choco install portmaster
+```
+
+## <img src="https://rawcdn.githack.com/TcNobo/TcNo-Acc-Switcher/7490c2de7ff1e1a524c4357e9ba4b1e701b73ed8/other/img/icon/icon256.png" height="24" /> TcNo Account Switcher
+
+_This package is automatically updated using [AU](https://github.com/majkinetor/au)_
+
+> A Super fast account switcher for Steam, Battle.net, Epic Games, Origin, Riot Games and Ubisoft
+
+[[Source](https://github.com/TcNobo/TcNo-Acc-Switcher)] [[Chocolatey](https://community.chocolatey.org/packages/tcno-acc-switcher/)]
+
+```powershell
+choco install tcno-acc-switcher
 ```
 
 ## <img src="https://rawcdn.githack.com/tree-sitter/tree-sitter/7bac34c925ac6fc5493c9ebd4cfc07cf5e1e92f0/docs/assets/images/tree-sitter-small.png" height="24" /> tree-sitter
