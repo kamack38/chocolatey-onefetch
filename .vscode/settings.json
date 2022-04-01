@@ -8,6 +8,8 @@
         "chocopkgs",
         "croc",
         "dcforoffice",
+        "Deathmatch",
+        "gunplay",
         "jarfix",
         "kamack",
         "leagueoflegends",
@@ -16,6 +18,7 @@
         "nupkgs",
         "onefetch",
         "portmaster",
+        "valorant",
         "windhawk"
     ]
 }
