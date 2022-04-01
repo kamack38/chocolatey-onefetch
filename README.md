@@ -214,7 +214,7 @@ choco install windhawk
 
 _This package is automatically updated using [AU](https://github.com/majkinetor/au)_
 
-> The customization marketplace for Windows programs
+> Riot Games presents VALORANT: a 5v5 character-based tactical FPS where precise gunplay meets unique agent abilities. Learn about VALORANT and its stylish cast
 
 [[Source](https://playvalorant.com/)] [[Chocolatey](https://community.chocolatey.org/packages/valorant/)]
 
