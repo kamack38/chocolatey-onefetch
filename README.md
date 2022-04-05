@@ -1,3 +1,5 @@
+# THIS REPO IS NOW ARCHIVED IN FAVOUR OF [THIS REPO](https://github.com/kamack38/packages)
+
 # <img src="./assets/Chocolatey.svg" height="32" /> Chocolatey Packages
 
 This Repository contains all of my chocolatey packages.
@@ -12,6 +14,7 @@ This Repository contains all of my chocolatey packages.
     </a>
 </p>
 
+- [THIS REPO IS NOW ARCHIVED IN FAVOUR OF THIS REPO](#this-repo-is-now-archived-in-favour-of-this-repo)
 - [<img src="./assets/Chocolatey.svg" height="32" /> Chocolatey Packages](#-chocolatey-packages)
     - [<img src="./assets/7tt.png" height="24"/> 7+ Taskbar Tweaker](#-7-taskbar-tweaker)
     - [<img src="./assets/Action.png" height="24"/> Action](#-action)
